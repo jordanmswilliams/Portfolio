@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: F1F8F9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #101A1B;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  font-size: 2rem;
+  font-family: 'Molengo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #101A1B;
+}
+
+.current {
+  color: #F1F8F9;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-top: .5rem;
+}
+
+h1 {
+  font-size: 10vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 8vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  padding: 40px;
+}
+
+header img {
+  max-width: 30px;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero .hero-header{
+  margin:auto;
+}
+
+.container{
+  background-color: white;
+  /*height: 100vh;*/
+  margin: 0 auto;
+  width: 90%;
+}
+
+section {
+  background-color: #6AADB5;
+  margin-top:1rem;
+  padding: 10rem 0;
+}
+
+section.About {
+  padding: 20rem 1rem;
+}
+
+/* paralellogram */
+.parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+  transform: skew(-20deg);
+	border: none;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color: #F7D1AC;
+}
+
+.parallelogram1 {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+  transform: skew(-20deg);
+	border: none;
+  position: relative;
+  top: -5px;
+  left: 260px;
+  background-color: #558B91;
+}
+
+.parallelogram2 {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+  transform: skew(-20deg);
+	border: none;
+  position: relative;
+  top: -110px;
+  left: 420px;
+  background-color: #EF9179;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    width: 70rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container{
+    width: 98rem;
+  }
+}
