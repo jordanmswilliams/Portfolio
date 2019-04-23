@@ -148,7 +148,7 @@ button {
   /* Breaking the page into one column as there's no common column breakpoints between sections */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /* Breaking the page into eight rows: a header, six sections & a footer */
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
 }
 
 /* ----------------- ABOUT ME - GRID FOR MAIN SECTIONS --------------------- */
@@ -193,8 +193,12 @@ button {
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
 
 .sections_about .content_about {
-  grid-area: 2 / 1 / 2 / 3;
-  padding: 2rem;
+  /*grid-area: 2 / 1 / 2 / 3;
+  padding: 2rem;*/
+  max-width:700px;
+  margin: auto;
+  width: calc(100vw - 2rem);
+  padding: 4rem 0 0 4rem;
 }
 /* ----------------- LANDING PAGE - GRID FOR MAIN SECTIONS ------------------ */
 
@@ -285,12 +289,17 @@ button {
 
 /*----------------------LANDING PAGE - featured work--------------------------*/
 
-.container .sections_landing .featured_work{
+.container .sections_landing .featured_work_wrapper {
+  background-color: #6AADB5;
   grid-area: 2 / 1 / 2 / 5;
+}
+
+.container .sections_landing .featured_work{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 20vh 1fr 20vh;
-  background-color: #6AADB5;
+  max-width:1000px;
+  margin: auto;
   /* padding: 3rem; */
 }
 
@@ -304,7 +313,10 @@ button {
   grid-area: 1 / 1 / 1 / 3;
   align-self: center;
   justify-self: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #F1F8F9;
+  letter-spacing: .4rem;
 }
 
 
@@ -358,12 +370,17 @@ button {
 /*---------------------- LANDING PAGE -- About Me --------------------------*/
 /*-------------------------------------------------------------------------*/
 
-.container .sections_landing .about_me{
+.container .sections_landing .about_me_wrapper {
   grid-area: 3 / 1 / 3 / 5;
   background-color: #99CFD6;
+}
+
+.container .sections_landing .about_me{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 20vh auto 20vh;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .container .sections_landing .about_me .about_me_content{
@@ -410,6 +427,7 @@ section.recentwork {
   background-color: #6AADB5;
 }
 
+/*
 @media screen and (min-width: 768px) {
   .container{
     width: 70rem;
@@ -420,7 +438,7 @@ section.recentwork {
   .container{
     width: 98rem;
   }
-}
+}*/
 
 /* End of stuff that may be needed */
 /* Starting page layouts here */
@@ -485,26 +503,34 @@ section.recentwork {
   grid-area: 2 / 1 / 2 / 7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container .sections .intro_wrapper {
+  grid-area: 1 / 1 / 1 / 13;
+  background-color: #558B91;
 }
 
 /* grid templates for each section */
 .container .sections .intro{
-  grid-area: 1 / 1 / 1 / 13;
-  background-color: #558B91;
   display: grid;
   grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(5,1fr);
-  min-height: 150vh;
-  max-height: 150vh;
+  grid-template-rows: auto auto auto auto auto;
+  max-width: 900px;
+  margin: auto;
+  /*min-height: 150vh;
+  max-height: 150vh;*/
   /*height: 170vh;
   width: 100vw;*/
 }
 
 .sections .intro .case_study_hero_img {
   grid-area: 4 / 1 / 4 / 8;
+  align-self: center;
   justify-self: center;
-  height: 43vh;
+  height: 60vh;
+  width: auto;
+  padding: 3rem 1rem 0 1rem;
 }
 
 .sections .intro .ds_logo {
@@ -516,24 +542,26 @@ section.recentwork {
   justify-self: center;
 }
 
+/*
 .sections .intro .intro_img1 {
   /*align-self: end;*/
-  grid-area: 3 / 7 / 5 / 7;
+/*  grid-area: 3 / 7 / 5 / 7;
   justify-self: right;
   width: 17vw;
   height: 57vh;
   transform: translate(3vw);
   padding-top: 0rem;
-}
+}*/
 
+/*
 .sections .intro .intro_img2 {
   grid-area: 2 / 1 / 4 / 1;
   align-self: center;
-}
+}*/
 
 .sections .intro .hero_text_content_cs1 {
-  grid-area: 3 / 3 / 3 / 7;
-  justify-self: center;
+  grid-area: 3 / 2 / 3 / 6;
+  text-align: center;
 }
 
 .sections .intro .h2_intro {
@@ -556,15 +584,17 @@ section.recentwork {
   margin: 2rem;
 }*/
 
-.sections .intro .nav_wrapper{
-  grid-area: 5 / 1 / 5 / 8;
+.sections .nav_wrapper{
+  grid-area: 2 / 1 / 2 / 8;
   background-color: #D2EDF4;
-  justify-content: space-between;
-  height: 15vh;
-  align-self: end;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  align-self: start;
+  height: 20vh;
+  text-align: center;
 }
 
-.nav_wrapper .disc_res, .info_arch, .vis_des, .proto_test {
+/*.sections .nav_wrapper .disc_res, .info_arch, .vis_des, .proto_test {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   color: #274042;
@@ -574,12 +604,18 @@ section.recentwork {
   align-self: center;
   justify-self: center;
   justify-content: space-between;
-  grid-area: 5 / 1 / 5 / 8;
+  grid-area: 2 / 1 / 2 / 8;
 }
+
+.sections .nav_wrapper .disc_res {
+  grid-area: 2 / 1 / 2 / 1;
+  align-self: center;
+}*/
+
 
 /*---------- DISCOVERY & RESEARCH --------------------------------------*/
 .sections .daandr{
-  grid-area: 2 / 1 / 2 / 13;
+  grid-area: 3 / 1 / 3 / 13;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 106px repeat(9,1fr);
@@ -647,8 +683,8 @@ section.recentwork {
   background-color: #F7D1AC;
   /*padding: 2rem;*/
   grid-area: 1 / 1 / 1 / 13;
-  height: 15vh;
-  width: 99vw;
+  height: 20vh;
+  width: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 1fr;
@@ -673,19 +709,19 @@ section.recentwork {
 }
 
 .sections .infrarch{
-  grid-area: 3 / 1 / 3 / 13;
-}
-
-.sections .branding{
   grid-area: 4 / 1 / 4 / 13;
 }
 
-.sections .testandproto{
+.sections .branding{
   grid-area: 5 / 1 / 5 / 13;
 }
 
-.sections .lessons{
+.sections .testandproto{
   grid-area: 6 / 1 / 6 / 13;
+}
+
+.sections .lessons{
+  grid-area: 7 / 1 / 7 / 13;
 }
 
 
