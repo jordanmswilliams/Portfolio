@@ -6,4 +6,8 @@
 6. make the quad graph a responsive CSS drawing.
 7. reorder the CSS to alphabetical so it's easier to reference.
 8. fix the user research numbers section. The % is supposed to be left and the words to the right. Also a small peach circle.
-9. 
+9. project1 > user research > user personas
+    I have a second user persona. I would like the user persona to be clickable to see the second user persona.
+10. project1 > information architecture > user stories visual
+    I need the text on top of the parallelogram. I also need the titles of each column "role, task and importance" to align to the left.
+11.

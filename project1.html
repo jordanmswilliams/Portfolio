@@ -5,10 +5,10 @@
     <title>Jordan Williams Portfolio</title>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Playfair+Display:400,700,700i,900" rel="stylesheet">
       <!-- Custom Styles -->
-      <link rel="stylesheet" href="/CSS/reset.css">
-      <link rel="stylesheet" href="/CSS/header.css">
-      <link rel="stylesheet" href="/CSS/styles.css">
-      <link rel="stylesheet" href="/CSS/footer.css">
+      <link rel="stylesheet" href="CSS/reset.css">
+      <link rel="stylesheet" href="CSS/header.css">
+      <link rel="stylesheet" href="CSS/styles.css">
+      <link rel="stylesheet" href="CSS/footer.css">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138655149-1"></script>
       <script>
@@ -117,7 +117,7 @@
           <img src="images/4 quad chart.png" alt="">
         </div>
         <!-- <div class="italic_quotes_1"> -->
-          <h3 class="test">“There was an opening in the market for a product that combined the features of Pinterest and Dropbox.”</h3>
+          <h3 class="quotes q1">“There was an opening in the market for a product that combined the features of Pinterest and Dropbox.”</h3>
           <div class="circle cir1"></div>
         <!-- </div> -->
         <div class="user_research">
@@ -143,68 +143,102 @@
             <div class="circle2 cir2"></div>
           </div>
         </div>
+        <div class="quote_wrapper">
           <h3>“organization can be clunky”</h3>
           <h3>“inability to tag files”</h3>
           <h3>“I’m not very good at organizing my things”</h3>
-          <div class="circle cir2"></div>
-<!--
-        <h3>User Personas</h3>
-          <img src="images/jane.png" alt="">
-          <h3>Jane</h3>
-          <h8>Illustrator | age: 33 | gender: female</h8>
-          <h9>Motivation</h9>
-            <p>Jane is a self-employed illustrator. She works on the go frequently. She has many collaborators working on different projects at all times. She would love to be able to travel knowing she can work as long as she has her laptop. She would like one storage and organization platform to meet all her needs.</p>
-          <h9>Frustration </h9>
-            <ul>
-              <li>Concerned with working offline</li>
-              <li>Wants to easily search files</li>
+        </div>
+          <div class="circle cir3"></div>
+        <div class="user_persona_wrapper">
+          <h3>User Personas</h3>
+          <img src="images/jane.png" alt=""><br><br>
+          <h3>Jane</h3><br><br>
+          <h6>Illustrator | age: 33 | gender: female</h6><br><br>
+          <h3 class="h3_reg">Motivation</h3>
+            <p>Jane is a self-employed illustrator. She works on the go frequently. She has many collaborators working on different projects at all times. She would love to be able to travel knowing she can work as long as she has her laptop. She would like one storage and organization platform to meet all her needs.</p><br><br>
+          <h3 class="h3_reg">Frustration</h3><br>
+            <ul style="list-style-type:disc;">
+              <li>Concerned with working offline</li><br>
+              <li>Wants to easily search files</li><br>
               <li>Needs to collaborate with coworkers</li>
             </ul>
-          <h3>“She would like one storage and organization platform to meet all her needs.”</h3>-->
+        </div>
+          <h3 class="quotes q2">“She would like one storage and organization platform to meet all her needs.”</h3>
+          <div class="circle cir4"></div>
       </section>
-
+<!--INFORMATION ARCHITECTURE -->
       <section id="infrastructure" class="infrarch">
         <div class="section_header sect1">
           <h2 class="section_h2">Information Architecture</h2>
           <div class="section_parallelogram"></div>
         </div>
-<!--
- User Stories
+ <!--User Stories-->
+      <div class="user_stories">
         <h3>User Stories</h3>
-          <p>The next step in the design process was to create user stories based on the user research thus far. This would help us focus on what features were necessary when building the minimum viable product.  The process of organizing user stories helped  structure the MVP.  </p>
-          <a href="url">view user stories</a>
-        <h5>Role</h5>
-          <ul>
-            <li>as a returning user</li>
-            <li>as a new user</li>
-          </ul>
-        <h5>Task</h5>
-          <ul>
-            <li>I want to organize my files with tags</li>
-            <li>I want to save content from the web</li>
-            <li>I want to create content within the product</li>
-            <li>I want to edit documents </li>
-            <li>I want to collaborate with others on documents</li>
-            <li>I want to visually organize inpiration boards</li>
-            <li>I want to create a username and password</li>
-            <li>I want to view prices</li>
-            <li>I want to log in</li>
-          </ul>
-        <h5>Importance</h5>
-          <ul>
-            <li>high</li>
-            <li>high</li>
-            <li>high</li>
-            <li>high</li>
-            <li>high</li>
-            <li>medium</li>
-            <li>high</li>
-            <li>high</li>
-            <li>high</li>
-          </ul>
-<!--User Flows --
+          <p>The next step in the design process was to create user stories based on the user research thus far. This would help us focus on what features were necessary when building the minimum viable product.  The process of organizing user stories helped  structure the MVP.  </p><br><br>
+          <h7><a href="url">view user stories</a></h7>
+      </div>
+      <div class="user_stories_vis">
+        <div class="para5"></div>
+        <table id="user_stories_tbl">
+          <tr>
+            <th>Role</th>
+            <th>Task</th>
+            <th>Importance</th>
+          </tr>
+          <tr>
+            <td>as a returning user</td>
+            <td>I want to organize my files with tags</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to save content from the web</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to create content within the product</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to edit documents</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to collaborate with others on documents</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to visually organize inpiration boards</td>
+            <td>medium</td>
+          </tr>
+          <tr>
+            <td>as a new user</td>
+            <td>I want to create a username and password</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to view prices</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>I want to log in</td>
+            <td>high</td>
+          </tr>
+        </table>
+        </div>
+      </div>
+<!--User Flows -->
+      <div class="user_flows">
         <h3>User Flows</h3>
           <p>The user stories were turned into user flows. User flows layout how a user would navigate through the platform.  Working through the user flows sets up the roadmap for the website. The flow of creating documents, files or folders changed as the design evolved. I learned that it is crucial to map out each user flow so time is not lost redesigning the website.</p>
+      </div>
           <a href="url">view user flows</a>
           <img src="images/user_flows.png" alt="">
 <!--Wireframes-
