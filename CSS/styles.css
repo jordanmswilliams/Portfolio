@@ -740,11 +740,11 @@ section.recentwork {
 
 .daandr .user_research {
   grid-area: 6 / 3 / 6 / 6;
-  display: grid;
+  /*display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
   grid-template-rows: auto auto auto;
-  grid-row-gap: 2rem;
+  grid-row-gap: 2rem;*/
 }
 
 .daandr .usr_resrch_wrapper {
