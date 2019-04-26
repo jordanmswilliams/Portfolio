@@ -627,6 +627,12 @@ section.recentwork {
   grid-template-rows: auto;
 }
 
+/* Change background on mouse-over */
+.sections .nav_wrapper a:hover{
+  background: #ddd;
+  color: black;
+}
+
 .nav_wrapper .disc_res{
   grid-area: 1 / 1 / 2 / 2;
   align-self: center;
