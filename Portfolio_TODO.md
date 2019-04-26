@@ -5,6 +5,8 @@
     - D: Did your mentor tell you to do this?  I'm not sure I agree, but probably a matter of preference. I prefer to keep elements grouped in the order in which they are used.
 14. project1 > user research > user personas
     I have a second user persona. I would like the user persona to be clickable to see the second user persona.
+15. project1 > sticky_nav
+      each link is in hover state while scrolling through that section. So user can easily glance at what section they are in.
 
 DONE:
 
