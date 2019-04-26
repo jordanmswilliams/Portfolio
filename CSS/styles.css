@@ -113,6 +113,14 @@ h7 {
   color: #274042;
 }
 
+h8 {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-top: 2rem;
+  color: #274042;
+  text-align: center;
+}
 /* Set default italic quotes parameters */
 .italic_quotes {
   font-size: 5rem;
@@ -921,7 +929,7 @@ section.recentwork {
   grid-area: 4 / 1 / 4 / 13;
   display: grid;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: repeat(7,auto);
+  grid-template-rows: repeat(8,auto);
   grid-row-gap: 10rem;
 }
 
@@ -971,11 +979,52 @@ th {
   grid-area: 5 / 1 / 5 / 13;
 }
 
+.wireframes {
+  grid-area: 6 / 3 / 6 / 6;
+}
+
+.q3 {
+  grid-area: 6 / 8 / 6 / 11;
+  z-index: 2;
+}
+
+.cir5 {
+  grid-area: 6 / 8 / 6 / 13;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+}
+
+.wireframe_1 {
+  grid-area: 7 / 3 / 7 / 5;
+}
+
+.wireframe_2 {
+  grid-area: 7 / 6 / 7 / 8;
+}
+
+.wireframe_3 {
+  grid-area: 7 / 9 / 7 / 11;
+}
+
+.wireframe_4 {
+  grid-area: 8 / 3 / 8 / 5;
+}
+
+.wireframe_5 {
+  grid-area: 8 / 6 / 8 / 8;
+}
+
+.wireframe_6 {
+  grid-area: 8 / 9 / 8 / 11;
+  padding-bottom: 10rem;
+}
+
 .sections .branding{
   grid-area: 4 / 1 / 4 / 13;
   display: grid;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: auto repeat(8,auto);
+  grid-template-rows: auto repeat(20,auto);
   grid-row-gap: 10rem;
 }
 
