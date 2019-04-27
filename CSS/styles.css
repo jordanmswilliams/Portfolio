@@ -121,6 +121,30 @@ h8 {
   color: #274042;
   text-align: center;
 }
+
+h9 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+}
+
+h10 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+ h11{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 2rem;
+ }
+
+ h12 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 2rem;
+ }
+
 /* Set default italic quotes parameters */
 .italic_quotes {
   font-size: 5rem;
@@ -1136,6 +1160,24 @@ th {
   background-color: #F46036;
   margin-top: 1rem;
 }
+
+.branding .font_selection {
+  grid-area: 5 / 3 / 5 / 6;
+}
+
+.branding .q5 {
+  grid-area: 5 / 8 / 5 / 11;
+  z-index: 2;
+}
+
+.branding .cir7 {
+  grid-area: 5 / 8 / 5 / 11;
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+}
+
+
 
 .sections .testandproto{
   grid-area: 5 / 1 / 5 / 13;
