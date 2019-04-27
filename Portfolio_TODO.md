@@ -7,8 +7,6 @@
     I have a second user persona. I would like the user persona to be clickable to see the second user persona.
 15. project1 > sticky_nav
       each link is in hover state while scrolling through that section. So user can easily glance at what section they are in.
-16. project1 > wireframes > wireframe images
-      the text underneath the image needs to be centered
 
 DONE:
 
@@ -25,3 +23,5 @@ DONE:
 15. project1 > information architecture > user stories visual
     I need the text on top of the parallelogram. I also need the titles of each column "role, task and importance" to align to the left.
 16. Discovery & Research - fix circle under Italics Quote so that it doesn't distort
+17. project1 > wireframes > wireframe images
+      the text underneath the image needs to be centered

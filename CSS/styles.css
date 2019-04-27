@@ -651,6 +651,12 @@ section.recentwork {
   grid-template-rows: auto;
 }
 
+/* Change background on mouse-over */
+.sections .nav_wrapper a:hover{
+  background: #ddd;
+  color: black;
+}
+
 .nav_wrapper .disc_res{
   grid-area: 1 / 1 / 2 / 2;
   align-self: center;
@@ -1042,6 +1048,18 @@ th {
 .wireframe_6 {
   grid-area: 8 / 9 / 8 / 11;
   padding-bottom: 10rem;
+}
+
+figure {
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+/*  border: thin silver solid; */
+  margin: 0.5em;
+  padding: 0.5em;
 }
 
 .sections .branding{
