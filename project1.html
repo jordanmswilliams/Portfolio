@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Jordan Williams Portfolio</title>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Playfair+Display:400,700,700i,900" rel="stylesheet">
-      <!-- Custom Styles -->
-      <link rel="stylesheet" href="CSS/reset.css">
-      <link rel="stylesheet" href="CSS/header.css">
-      <link rel="stylesheet" href="CSS/styles.css">
-      <link rel="stylesheet" href="CSS/footer.css">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138655149-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-138655149-1');
-      </script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Playfair+Display:400,700,700i,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138655149-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-138655149-1');
+    </script>
   </head>
   <body class="container">
     <main class="sections">
@@ -37,7 +37,7 @@
         <a class="about" href="about.html">About</a>
 
       </header>
-<!-- HERO ------------------------------------------------>
+      <!-- HERO ------------------------------------------------>
       <div class="intro_wrapper">
         <section class="intro">
           <div class="ds_logo">
@@ -57,13 +57,17 @@
             <img class="case_study_hero_img" src="images/case_study_hero_img.png" alt="dream space board image">
         </section>
       </div>
-      <div id="sticky_nav" class="nav_wrapper">
-        <a class="disc_res" href="project1.html#discovery">discovery & research</a>
-        <a class="info_arch" href="project1.html#infrastructure">information architecture</a>
-        <a class="vis_des" href="project1.html#visual">visual design</a>
-        <a class="proto_test" href="project1.html#testing">prototype & testing</a>
-      </div>
-<!-- DISCOVERY & RESEARCH -->
+
+      <nav>
+        <ul id="stickyNavV2">
+          <li class="active"><a href="#discovery">discovery & research</a></li>
+          <li><a href="#infrastructure">information architecture</a></li>
+          <li><a href="#visual">visual design</a></li>
+          <li><a href="#testing">prototype & testing</a></li>
+        </ul>
+      </nav>
+
+      <!-- DISCOVERY & RESEARCH -->
       <section id="discovery" class="daandr">
         <div class="section_header sect1">
           <h2 class="section_h2">Discovery & Research</h2>
@@ -166,7 +170,7 @@
           <h3 class="quotes q2">“She would like one storage and organization platform to meet all her needs.”</h3>
           <div class="circle cir4"></div>
       </section>
-<!--INFORMATION ARCHITECTURE -->
+      <!--INFORMATION ARCHITECTURE -->
       <section id="infrastructure" class="infrarch">
         <div class="section_header sect1">
           <h2 class="section_h2">Information Architecture</h2>
@@ -244,7 +248,7 @@
             <h7><a href="url">view user flows</a></h7>
         </div>
             <img class="user_flows_img" src="images/user_flows.png" alt="">
-<!--Wireframes-->
+        <!--Wireframes-->
         <div class="wireframes">
           <h3>Wireframes</h3>
             <p>Low-fidelity wireframes were sketched and tested.  The user tests for the lo-fi wireframes were conducted in person, where users were asked to complete a set of tasks such as onbaording, uploading files, and sharing content. </p>
@@ -258,34 +262,6 @@
           </div>
           <h3 class="quotes q3">“The user testing indicated that the onboarding process needed to be simplified.”</h3>
           <div class="circle cir5"></div>
-
-<!--
-          <div class="wireframe_1">
-            <img src="images/wireframe_1.png" alt="wireframe sketch">
-            <h8>sign in wireframe sketches</h8>
-          </div>
-          <div class="wireframe_2">
-            <img src="images/wireframe_2.png" alt="wireframe sketch">
-            <h8>projects and document editor sketches</h8>
-          </div>
-          <div class="wireframe_3">
-            <img src="images/wireframe_3.png" alt="wireframe sketch">
-            <h8> search, share, and upload sketches </h8>
-          </div>
-          <div class="wireframe_4">
-            <img src="images/wireframe_hf_1.png" alt="wireframe lo-fi mockup">
-            <h8>sign in wireframe</h8>
-          </div>
-          <div class="wireframe_5">
-            <img src="images/wireframe_hf_2.png" alt="wireframe lo-fi mockup">
-            <h8>forgot your password</h8>
-          </div>
-          <div class="wireframe_6">
-            <img src="images/wireframe_hf_3.png" alt="wireframe lo-fi mockup">
-            <h8> create and account </h8>
-          </div>
-
--->
 
           <figure class="wireframe_1">
             <p><img src="images/wireframe_1.png"
@@ -325,7 +301,7 @@
           <h2 class="section_h2">Branding</h2>
           <div class="section_parallelogram"></div>
         </div>
-<!-- branding summary -->
+        <!-- branding summary -->
         <div class="summary">
           <h3>Summary</h3>
             <p>Before starting the mockups the branding needed to be established. This included fonts, colors and designing a logo. The mood of Dream Space is playful. Dream Space needed to appeal to creatives. Dream Space is built around the color blue. The accent colors and the playfulness of the illustrations set Dream Space apart from the competition. The fonts, Archivo Black Regular and Roboto, were chosen to because of their contrast and versatility. </p>
@@ -333,12 +309,12 @@
           <h3 class="quotes q4">“The mood of Dream Space is playful.”</h3>
           <div class="circle cir6"></div>
         </div>
-<!--mood board -->
+        <!--mood board -->
         <div class="mood_board">
           <h3>Mood Board</h3>
             <img src="images/mood_board.png" alt="mood board">
         </div>
-<!-- color palette -->
+        <!-- color palette -->
         <div class="color_palette_wrapper">
           <h3 class="color_p">Color Palette</h3>
             <div class="rect1_wrapper">
@@ -383,7 +359,7 @@
               <p>#F46036</p>
             </div>
           </div>
-<!-- font selection -->
+          <!-- font selection -->
         <div class="font_selection">
           <h3> Font Selection </h3>
             <h8>Archivo Black Regular</h8>
@@ -561,6 +537,8 @@
     <p class="footer-company-name">Jordan Mackenzie Williams &copy; 2019</p> -->
 
   -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="scripts/apps.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

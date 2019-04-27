@@ -1,3 +1,4 @@
+
 /* Perform Universal CSS reset*/
 /** {
   margin: 0;
@@ -614,7 +615,7 @@ section.recentwork {
   margin: 2rem;
 }*/
 
-.sections .nav_wrapper{
+.sections #stickyNavV2{
   grid-area: 2 / 1 / 2 / 8;
   background-color: #D2EDF4;
   font-family: 'Montserrat', sans-serif;
@@ -627,12 +628,14 @@ section.recentwork {
   grid-template-rows: auto;
 }
 
-/* Change background on mouse-over */
+/* Change background on mouse-over
 .sections .nav_wrapper a:hover{
   background: #ddd;
   color: black;
 }
+*/
 
+/*
 .nav_wrapper .disc_res{
   grid-area: 1 / 1 / 2 / 2;
   align-self: center;
@@ -652,6 +655,130 @@ section.recentwork {
   grid-area: 1 / 4 / 2 / 5;
   align-self: center;
 }
+*/
+/*
+******************************************************
+BEGIN TEST SECTION FOR HIGHLIGHTING NAVBAR BASED ON SCROLL POSITION
+includes index.js
+
+Reference Code:
+
+<nav>
+  <ul id="mainNav">
+    <li class="active"><a href="#home">Home</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<section id="home"><h2>Home</h2></section>
+<section id="work" data-sr><h2>Work</h2></section>
+<section id="about"><h2>About</h2></section>
+<section id="contact"><h2>Contact</h2></section>
+
+******************************************************
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #55443D;
+  height: 40px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: table-cell;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+******************************************************
+END TEST SECTION
+******************************************************
+*/
+
+/*
+.sections #stickyNavV2{
+  grid-area: 2 / 1 / 2 / 8;
+  background-color: #D2EDF4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  align-self: start;
+  height: 20vh;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+}
+*/
+
+nav {
+/*
+  position: fixed;
+  top: 0;
+  left: 0;
+*/
+  grid-area: 2 / 1 / 2 / 8;
+  background-color: #D2EDF4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  align-self: start;
+  height: 20vh;
+  text-align: center;
+
+  background: #55443D;
+  height: 40px;
+  width: 100%;
+  z-index: 10;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+nav ul li {
+  display: table-cell;
+}
+nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #274042;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #F38A8A;
+  background: #ddd;
+/*  color: black; */
+
+}
+
+nav ul .active a {
+  color: #F38A8A;
+  border-bottom: 3px solid #F38A8A;
+}
 
 /* Style the navbar */
 #sticky_nav {
@@ -668,12 +795,8 @@ section.recentwork {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
-
-/* Page content
-.container {
-  padding: 16px;
-} */
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -686,25 +809,6 @@ section.recentwork {
 .sticky + .container {
   padding-top: 60px;
 }
-
-/*.sections .nav_wrapper .disc_res, .info_arch, .vis_des, .proto_test {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color: #274042;
-  max-width: 300%;
-  align-self: center;
-  text-decoration-style: none;
-  align-self: center;
-  justify-self: center;
-  justify-content: space-between;
-  grid-area: 2 / 1 / 2 / 8;
-}
-
-.sections .nav_wrapper .disc_res {
-  grid-area: 2 / 1 / 2 / 1;
-  align-self: center;
-}*/
-
 
 /*---------- DISCOVERY & RESEARCH --------------------------------------*/
 .sections .daandr{
