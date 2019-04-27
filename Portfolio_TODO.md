@@ -7,6 +7,9 @@
     I have a second user persona. I would like the user persona to be clickable to see the second user persona.
 15. project1 > sticky_nav
       each link is in hover state while scrolling through that section. So user can easily glance at what section they are in.
+16. project1 > branding > Icons "TO_DO_16"
+      place the icons and parallelogram in a grid.
+
 
 DONE:
 
