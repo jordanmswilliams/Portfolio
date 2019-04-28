@@ -1022,6 +1022,44 @@ nav ul .active a {
   grid-area: 8 / 3 / 8 / 6;
 }
 
+.black2{
+  grid-area: 8 / 3 / 8 / 6;
+}
+
+.carousel{
+  grid-area: 8 / 3 / 8 / 6;
+  height: 500px;
+}
+
+.carousel .item {
+  height: 500px;
+}
+
+div .carousel .carousel-slider .initialized{
+  height: 600px
+}
+
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.container2{
+  background-color: #F1F8F9;
+}
+
+.carousel {
+  height: 800px !important;
+  min-height: 800px !important;
+}
+
+.carousel-item{
+  background-color: #F1F8F9;
+}
+
 .q2 {
   grid-area: 8 / 8 / 8 / 11;
 }
