@@ -242,7 +242,9 @@ button {
 
 .hero_about .jordan_img1 {
   grid-area: 3 / 5 / 9 / 9;
+  padding-bottom: 4vh;
   z-index: 2;
+
 }
 
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
@@ -254,6 +256,11 @@ button {
   margin: auto;
   width: calc(100vw - 2rem);
   padding: 4rem 0 0 4rem;
+}
+
+.sections_about .content_about ul li{
+  list-style-type: square;
+  list-style-position: inside;
 }
 /* ----------------- LANDING PAGE - GRID FOR MAIN SECTIONS ------------------ */
 
