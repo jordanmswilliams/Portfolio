@@ -1,15 +1,3 @@
-
-/* Perform Universal CSS reset*/
-/** {
-  margin: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  box-sizing: border-box;
-    }*/
-
 /* Set default font size */
 html {
   font-size: 10px;
@@ -38,7 +26,6 @@ p {
 img {
   max-width: 100%;
   max-height: 100%;
-  /*height: 50vh;*/
 }
 
 /* Set default h1 parameters */
@@ -291,6 +278,12 @@ button {
   padding-left: 1rem;
 }
 
+.p_btn{
+  color: #274042;
+  background-color: #F7B05B;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
 .hero .parallelogram {
 /*  transform: skew(-15deg) translate(9vw);
   background-color: #F7D1AC; */
@@ -450,26 +443,10 @@ button {
   align-self: center;
 }
 
-/*.about_me .title_1{
-/*  grid-area: 2 / 2 / 2 / 7;
-  font-size: 7rem;
-  margin: 0px;
-  align-self: top;
-  justify-self: left;
-} */
-
-/* .about_me .content_1{
-/*  grid-area: 2 / 2 / 2 / 7;
-  max-width: 400px;
-  align-self: center;
-} */
-
 .about_me .jordan_img {
   grid-area: 2 / 8 / 2 / 12;
   height: 100%;
   width: 100%;
-/*  padding-top: 15vh;
-  padding-bottom: 15vh; */
 }
 
 /*-------------------------------------------------------------------------*/
@@ -508,57 +485,6 @@ section.recentwork {
 /* main-distributed{} defines attributes that are applicable to the entire page */
 
 /* ************************************************************************* */
-/* header-distributed{} defines attributes that are applicable to the page header */
-/* ************************************************************************* */
-/*.container .header_distributed{
-  /* Place the header in the 1st row on the page */
-  /*grid-area: 1 / 1 / 1 / 6;
-
-  /* Create a sub-grid in the header */
-  /*display: grid;
-  /* Breaking the header into five columns */
-  /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /* Breaking the header into one row */
-  /*grid-template-rows: 1fr;
-}
-
-/* Place the header logo in the first cell of the header grid */
-/*.header_distributed .logo_rose{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-width: 300%;
-  height: 80px;
-  grid-area: 1 / 1 / 1 / 1;
-  transform: skew(0deg);
-  align-self: center;
-}
-
-/* Format the header navigation links */
-/*.header_distributed .gallery, .about{
-  font-family: 'Molengo', sans-serif;
-  font-size: 30px;
-  color: #274042;
-  max-width: 300%;
-  height: auto;
-  transform: skew(0deg);
-  align-self: center;
-}
-
-/* Place Gallery link in fourth column of the only row in the header grid */
-/*.header_distributed .gallery{
-  grid-area: 1 / 4 / 1 / 4;
-}
-
-/* Place About link in fourth column of the only row in the header grid */
-/*.header_distributed .about{
-  grid-area: 1 / 5 / 1 / 5;
-}
-
-/* ************************************************************************* */
-/* End header-distributed{}                                                  */
-/* ************************************************************************* */
-
-/* ************************************************************************* */
 /* Define attributes to apply to all case study sections                    */
 /* ************************************************************************* */
 .container .sections{
@@ -568,18 +494,24 @@ section.recentwork {
   grid-template-rows: auto auto auto auto auto auto auto;
 }
 
-.sections .intro_wrapper {
-  grid-area: 1 / 1 / 1 / 13;
+/********************************************************
+Project1.html Intro CSS
+*********************************************************/
+
+/*.sections .intro_wrapper {
+  grid-area: 1 / 1 / 1 / 5;
   background-color: #558B91;
-}
+} */
 
 /* grid templates for each section */
 .container .sections .intro{
+  grid-area: 1 / 1 / 1 / 5;
+  background-color: #558B91;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(6,1fr);
   grid-template-rows: auto auto auto auto auto;
-  max-width: 900px;
-  margin: auto;
+/*  max-width: 900px; */
   /*min-height: 150vh;
   max-height: 150vh;*/
   /*height: 170vh;
@@ -587,42 +519,28 @@ section.recentwork {
 }
 
 .sections .intro .case_study_hero_img {
-  grid-area: 4 / 1 / 4 / 8;
+  grid-area: 4 / 1 / 4 / 7;
   align-self: center;
   justify-self: center;
   height: 60vh;
   width: auto;
-  padding: 3rem 1rem 0 1rem;
+  padding: 3rem 1rem 3rem 1rem;
 }
 
 .sections .intro .ds_logo {
-  color: #F1F8F9;
-  grid-area: 2 / 1 / 2 / 8;
-  height: 28vh;
+  grid-area: 2 / 1 / 2 / 7;
   padding: 2rem;
-  padding-top: 17rem;
+  padding-top: 15rem;
   justify-self: center;
 }
 
-/*
-.sections .intro .intro_img1 {
-  /*align-self: end;*/
-/*  grid-area: 3 / 7 / 5 / 7;
-  justify-self: right;
-  width: 17vw;
-  height: 57vh;
-  transform: translate(3vw);
-  padding-top: 0rem;
-}*/
-
-/*
-.sections .intro .intro_img2 {
-  grid-area: 2 / 1 / 4 / 1;
-  align-self: center;
-}*/
+.ds_logo img{
+  height: auto;
+  width: 30vw;
+}
 
 .sections .intro .hero_text_content_cs1 {
-  grid-area: 3 / 2 / 3 / 6;
+  grid-area: 3 / 3 / 3 / 5;
   text-align: center;
 }
 
@@ -636,18 +554,10 @@ section.recentwork {
   align-self: center;
 }
 
-/*
-.sections .intro .btn1 {
-  grid-area: 3 / 1 / 3 / 8;
-  justify-self: center;
-  height: 33%;
-  width: 13vw;
-  align-self: center;
-  margin: 2rem;
-}*/
+/**************************************************************/
 
-.sections #stickyNavV2{
-  grid-area: 2 / 1 / 2 / 8;
+#stickyNavV2{
+  grid-area: 2 / 1 / 2 / 5;
   background-color: #D2EDF4;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
@@ -659,123 +569,14 @@ section.recentwork {
   grid-template-rows: auto;
 }
 
-/* Change background on mouse-over
-.sections .nav_wrapper a:hover{
-  background: #ddd;
-  color: black;
-}
-*/
-
-/*
-.nav_wrapper .disc_res{
-  grid-area: 1 / 1 / 2 / 2;
-  align-self: center;
-}
-
-.nav_wrapper .info_arch{
-  grid-area: 1 / 2 / 2 / 3;
-  align-self: center;
-}
-
-.nav_wrapper .vis_des{
-  grid-area: 1 / 3 / 2 / 4;
-  align-self: center;
-}
-
-.nav_wrapper .proto_test{
-  grid-area: 1 / 4 / 2 / 5;
-  align-self: center;
-}
-*/
-/*
-******************************************************
-BEGIN TEST SECTION FOR HIGHLIGHTING NAVBAR BASED ON SCROLL POSITION
-includes index.js
-
-Reference Code:
-
-<nav>
-  <ul id="mainNav">
-    <li class="active"><a href="#home">Home</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-<section id="home"><h2>Home</h2></section>
-<section id="work" data-sr><h2>Work</h2></section>
-<section id="about"><h2>About</h2></section>
-<section id="contact"><h2>Contact</h2></section>
-
-******************************************************
-
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #55443D;
-  height: 40px;
-  width: 100%;
-  z-index: 1;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  display: table;
-  margin: 0 auto;
-}
-
-nav ul li {
-  display: table-cell;
-}
-
-nav ul li a {
-  padding: 10px 20px;
-  display: block;
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-******************************************************
-END TEST SECTION
-******************************************************
-*/
-
-/*
-.sections #stickyNavV2{
-  grid-area: 2 / 1 / 2 / 8;
+  grid-area: 2 / 1 / 2 / 5;
   background-color: #D2EDF4;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   align-self: start;
   height: 20vh;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: auto;
-}
-*/
-
-nav {
-/*
-  position: fixed;
-  top: 0;
-  left: 0;
-*/
-  grid-area: 2 / 1 / 2 / 8;
-  background-color: #D2EDF4;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  align-self: start;
-  height: 20vh;
-  text-align: center;
-
-  background: #55443D;
-/*  height: 40px; */
   width: 100%;
   z-index: 10;
 }
@@ -792,10 +593,12 @@ nav ul li {
   display: table-cell;
 }
 nav ul li a {
-  padding: 10px 20px;
   display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
   color: #274042;
   text-decoration: none;
+  padding: 10px 20px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -831,6 +634,7 @@ nav ul .active a {
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
+/*  position: fixed; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -1059,7 +863,7 @@ nav ul .active a {
 
 .carousel{
   grid-area: 8 / 3 / 8 / 6;
-  height: 500px;
+  height: 600px;
 }
 
 .carousel .item {

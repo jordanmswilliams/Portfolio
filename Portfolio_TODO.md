@@ -7,6 +7,8 @@
 21. Move head and footer to include files (to reduce need to maintain them separately on each HTML page)
 22. Look at Firefox Inspect tool for ability to render different media formats
 32. Update about me teaser text.
+40. Center links in header (drop down a little)
+
 
 DONE:
 
