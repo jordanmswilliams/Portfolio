@@ -1661,7 +1661,7 @@ figure {
   grid-area: 6 / 1 / 6 / 13;
   display: grid;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: auto repeat(8,auto);
+  grid-template-rows: auto auto auto;
   grid-row-gap: 10rem;
 }
 
@@ -1696,6 +1696,27 @@ figure {
   grid-area: 1 / 1 / 1 / 3;
 }
 
+.sections .lessons_learned {
+  grid-area: 2 / 3 / 2 / 11;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20rem;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 2rem;
+}
+
+.lessons_learned .lessons_learned_1 {
+  grid-area: 1 / 1;
+}
+
+.lessons_learned .lessons_learned_2 {
+  grid-area: 1 / 2;
+}
+
+.lessons_learned .btn_lessons{
+  grid-area: 2 / 1 / 2 / 3;
+  justify-self: center;
+}
 .sections .branding{
   grid-area: 5 / 1 / 5 / 13;
 }
@@ -1708,6 +1729,18 @@ figure {
   grid-area: 7 / 1 / 7 / 13;
 }
 
+/*
+@media(min-width: 500px) {
+  .container {
+     margin: 10px;
+     box-shadow: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 5px solid white;
+     border-radius: 3%;
+  }
+}*/
 
 /* ************************************************************************* */
 /* Define attributes to apply to the footer                                  */
