@@ -125,7 +125,7 @@
     background-color:  #F7B05B;
     color: #274042;
     border: 0;
-    padding: 15px 50px;
+    padding: /*15px*/ 0 50px;
     font-weight: bold;
     float: left;
 }

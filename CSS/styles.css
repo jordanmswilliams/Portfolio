@@ -181,6 +181,10 @@ button {
   border-radius: 50%;
 }
 
+.container {
+  max-width: none;
+}
+
 /* ************************************************************************* */
 /* main-distributed{} defines attributes that are applicable to the entire page */
 /* ************************************************************************* */
@@ -374,6 +378,11 @@ button {
   letter-spacing: .4rem;
 }
 
+.case_study {
+  background-color: #F7B05B;
+  color: #274042;
+}
+
 
 /*.container .featured_work .case_study{
   grid-area: 8 / 8 / 8 / 11;
@@ -409,13 +418,13 @@ button {
   align-self: center;
   z-index: 2;
   transform: skew(0deg) translate(2vw);
-  height: 70%;
+  height: 40rem;
 }
 
 .featured_work .para4 {
   transform: skew(-15deg) translate(8vw);
   background-color: #F7D1AC;
-  height: 80%;
+  height: 40rem;
   width: 55%;
   grid-area: 2 / 1 / 2 / 1;
   align-self: center;
@@ -445,8 +454,17 @@ button {
 
 .about_me .jordan_img {
   grid-area: 2 / 8 / 2 / 12;
-  height: 100%;
+  /*height: 100%;*/
   width: 100%;
+}
+
+.about_me_btn {
+  background-color: #F7B05B;
+  color: #274042;
+}
+
+.about_me_btn:hover, .case_study:hover, .submit:hover, .btn_lessons:hover {
+  background-color: #EA8F22;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -536,7 +554,7 @@ Project1.html Intro CSS
 
 .ds_logo img{
   height: auto;
-  width: 30vw;
+  width: 36rem;
 }
 
 .sections .intro .hero_text_content_cs1 {
@@ -562,7 +580,7 @@ Project1.html Intro CSS
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   align-self: start;
-  height: 20vh;
+  height: 10rem;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -575,7 +593,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   align-self: start;
-  height: 20vh;
+  height: 10rem;
   text-align: center;
   width: 100%;
   z-index: 10;
@@ -706,6 +724,7 @@ nav ul .active a {
 
 .daandr .quad_graph {
   grid-area: 4 / 8 / 4 / 11;
+  align-self: center;
 }
 
 /* .daandr .italic_quotes_1 {
@@ -724,12 +743,13 @@ nav ul .active a {
   padding-top: 100%;
 }
 
-.daandr .quotes {
+/*.daandr*/ .quotes {
   /*grid-area: 5 / 8 / 5 / 11;*/
   align-self: start;
   justify-self: start;
   font-style: italic;
-  z-index: 2
+  z-index: 2;
+  line-height: 4.5rem;
 }
 
 .q1 {
@@ -845,12 +865,14 @@ nav ul .active a {
 }
 
 .daandr .cir3{
-  grid-area: 7 / 1 / 7 / 4;
+  grid-area: 7 / 1 / 7 / 6;
   align-self: end;
-  justify-self: end;
+  /*justify-self: end;*/
   z-index: 1;
-  width: 27vw;
-  height: 70vh;
+  width: 100%;
+  /*height: 70vh;*/
+  transform: translateX(-7vw);
+  padding-top: 100%;
 }
 
 .daandr .user_persona_wrapper {
@@ -925,7 +947,7 @@ div .carousel .carousel-slider .initialized{
   transform: skew(-15deg) translate(-1vw);
   background-color: #F7D1AC;
   z-index: 1;
-  height: 98vh;
+  height: 35rem;
   width: auto;
   opacity: .3;
 }
@@ -936,6 +958,7 @@ div .carousel .carousel-slider .initialized{
   font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
+  margin: auto;
 }
 
 td {
@@ -1186,29 +1209,77 @@ figure {
 
 .branding .icons_wrapper {
   grid-area: 7 / 1 / 7 / 6;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(6,1fr);
+  display: grid;
 }
 
-.branding .icons {
+/*.icons_wrapper .icons {
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto auto auto;
-}
+  grid-area: 1 / 1 / 3 / 7;
+}*/
 
 .icons_wrapper .para6 {
-  grid-area: 1 / 1 / 2 / 6;
+  grid-area: 1 / 1 / 3 / 7;
   background-color: #558B91;
+  height: 30rem;
+  transform: skew(-15deg) translateX(3vw);
+}
+
+.icons_wrapper .iboards {
+  grid-area: 1 / 3;
+  z-index: 2;
+  width: 6rem;
+  margin: auto;
+}
+
+.icons_wrapper .ifolders {
+  grid-area: 1 / 4;
+  z-index: 2;
+  width: 6rem;
+  margin: auto;
+}
+
+.icons_wrapper .ihome {
+  grid-area: 1 / 5;
+  z-index: 2;
+  width: 6rem;
+  margin: auto;
+}
+
+.icons_wrapper .iprojects {
+  grid-area: 2 / 3;
+  z-index: 2;
+  width: 6rem;
+  margin:auto;
+}
+
+.icons_wrapper .isettings {
+  grid-area: 2 / 4;
+  z-index: 2;
+  width: 6rem;
+  margin: auto;
+}
+
+.icons_wrapper .iuser {
+  grid-area: 2 / 5;
+  z-index: 2;
+  width: 6rem;
+  margin: auto;
 }
 
 .branding .q6 {
   grid-area: 6 / 8 / 6 / 11;
   z-index: 2;
+  align-self: center;
 }
 
 .branding .cir8 {
-  grid-area: 6 / 8 / 6 / 11;
+  grid-area: 6 / 8 / 6 / 13;
   width: 100%;
   height: auto;
   padding-top: 100%;
+  transform: translateX(4vw);
 }
 
 .branding .brand_name {
@@ -1286,21 +1357,21 @@ figure {
 .logo_r3 .logo_r3_1 {
   grid-area: 1 / 1;
   justify-self: center;
-  height: 20vh;
+  height: 10rem;
   width: auto;
 }
 
 .logo_r3 .logo_r3_2 {
   grid-area: 1 / 2;
   justify-self: center;
-  height: 20vh;
+  height: 10rem;
   width: auto;
 }
 
 .logo_r3 .logo_r3_3 {
   grid-area: 1 / 3;
   justify-self: center;
-  height: 20vh;
+  height: 10rem;
   width: auto;
 }
 
@@ -1337,7 +1408,7 @@ figure {
 .testandproto .ut_wrapper_1 {
   grid-area: 2 / 3 / 2 / 11;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20rem;
   grid-template-rows: auto auto auto;
   grid-row-gap: 2rem;
@@ -1362,7 +1433,7 @@ figure {
 .testandproto .ut_wrapper_2 {
   grid-area: 3 / 3 / 3 / 11;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20rem;
   grid-template-rows: auto auto;
   grid-row-gap: 2rem;
@@ -1383,7 +1454,7 @@ figure {
 .testandproto .ut_wrapper_3 {
   grid-area: 4 / 3 / 4 / 11;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20rem;
   grid-template-rows: auto auto;
   grid-row-gap: 2rem;
@@ -1404,7 +1475,7 @@ figure {
 .testandproto .ut_wrapper_4 {
   grid-area: 5 / 3 / 5 / 11;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 20rem;
   grid-template-rows: auto auto;
   grid-row-gap: 2rem;
@@ -1425,8 +1496,8 @@ figure {
 .testandproto .ut_wrapper_5 {
   grid-area: 6 / 3 / 6 / 11;
   display: grid;
-  grid-template-columns: auto auto auto;
-  /*grid-column-gap: 20rem;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
   grid-template-rows: auto auto auto;
   grid-row-gap: 2rem;
 }
@@ -1437,12 +1508,12 @@ figure {
 
 .ut_wrapper_5 .land_page1 {
   grid-area: 2 / 1 / 2 / 1;
-  padding-right: 2rem;
+/*  padding-right: 2rem;*/
 }
 
 .ut_wrapper_5 .land_page2 {
   grid-area: 2 / 2 / 2 / 2;
-  padding-right: 2rem;
+  /*padding-right: 2rem;*/
 }
 
 .ut_wrapper_5 .land_page3 {
@@ -1469,13 +1540,18 @@ figure {
   grid-row-gap: 10rem;
 }
 
+.btn_lessons {
+  background-color: #F7B05B;
+  color: #274042;
+}
+
 /* section headers */
 
 .sections .section_header{
   background-color: #F7D1AC;
   /*padding: 2rem;*/
   grid-area: 1 / 1 / 1 / 13;
-  height: 20vh;
+  height: 10rem;
   width: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
