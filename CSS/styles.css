@@ -554,7 +554,7 @@ Project1.html Intro CSS
 
 .ds_logo img{
   height: auto;
-  width: 30vw;
+  width: 36rem;
 }
 
 .sections .intro .hero_text_content_cs1 {
@@ -947,7 +947,7 @@ div .carousel .carousel-slider .initialized{
   transform: skew(-15deg) translate(-1vw);
   background-color: #F7D1AC;
   z-index: 1;
-  height: 98vh;
+  height: 35rem;
   width: auto;
   opacity: .3;
 }
@@ -958,6 +958,7 @@ div .carousel .carousel-slider .initialized{
   font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
+  margin: auto;
 }
 
 td {
