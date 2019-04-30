@@ -1,9 +1,12 @@
 1. Case study main body uses .section -> change to .section_CS for future
-7. Make the quad graph a responsive CSS drawing.
+
+7. (Jordan - low priority)
+  Make the quad graph a responsive CSS drawing.
     - D: I don't know what this means. Can you explain?
 20. Add third carousel item to project1.html
 21. Move head and footer to include files (to reduce need to maintain them separately on each HTML page)
-22. Look at Firefox Inspect tool for ability to render different media formats
+22. (Jordan & Robin - HIGH priority)
+    Look at Firefox Inspect tool for ability to render different media formats
 32. Update about me teaser text.
 41. link the buttons on index.html to the about me page and the case study
 42. CHROME > landing page > featured work section
@@ -11,6 +14,14 @@
 43. CHROME > landing page > about me section
       the image is squished
 44. header_distributed add :hover state for links .gallery , .about
+45. project1.html > user personas > carousel
+    change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
+46. project1.html > user personas
+    Add circle and quote
+47. Make sure all circles are formatted correctly & text is italics
+48. Add parallelogram underneath the icons in the branding sections
+
+
 
 DONE:
 
@@ -48,3 +59,6 @@ DONE:
 36. About.html: fix Jordan pic to move up (off the bottom of the shape) and to the left a bit.
 37. About.html: add bullets to 'in my spare time' items
 40. Center links in header (drop down a little)
+51. change the view prototype button at the bottom of the case study to match the other Buttons
+49. logo round 3 is distorted
+50. Fix the images in the testing and prototyping section
