@@ -11,8 +11,8 @@ $(document).ready(function(){
   );
 });
 
-autoplay()   
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
-}
+// autoplay()
+// function autoplay() {
+//    $('.carousel').carousel('next');
+//    setTimeout(autoplay, 4500);
+//}

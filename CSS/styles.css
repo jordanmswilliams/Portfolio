@@ -885,15 +885,32 @@ nav ul .active a {
 
 .carousel{
   grid-area: 8 / 3 / 8 / 6;
-  height: 600px;
+/*  height: 60rem; */
+  min-height: 86rem;
 }
 
 .carousel .item {
   height: 500px;
 }
 
+.carousel.carousel-slider{
+  height: 2rem;
+}
+
+.carousel .indicators .indicator-item{
+  background-color: black;
+}
+
+.carousel .indicators .indicator-item.active{
+  background-color: black;
+}
+
 div .carousel .carousel-slider .initialized{
   height: 600px
+}
+
+.carousel-item{
+  background-color: #F1F8F9;
 }
 
 .item img {
@@ -905,15 +922,6 @@ div .carousel .carousel-slider .initialized{
 }
 
 .container2{
-  background-color: #F1F8F9;
-}
-
-.carousel {
-  height: 800px !important;
-  min-height: 800px !important;
-}
-
-.carousel-item{
   background-color: #F1F8F9;
 }
 
