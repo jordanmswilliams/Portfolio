@@ -181,6 +181,10 @@ button {
   border-radius: 50%;
 }
 
+.container {
+  max-width: none;
+}
+
 /* ************************************************************************* */
 /* main-distributed{} defines attributes that are applicable to the entire page */
 /* ************************************************************************* */
@@ -374,6 +378,11 @@ button {
   letter-spacing: .4rem;
 }
 
+.case_study {
+  background-color: #F7B05B;
+  color: #274042;
+}
+
 
 /*.container .featured_work .case_study{
   grid-area: 8 / 8 / 8 / 11;
@@ -447,6 +456,15 @@ button {
   grid-area: 2 / 8 / 2 / 12;
   height: 100%;
   width: 100%;
+}
+
+.about_me_btn {
+  background-color: #F7B05B;
+  color: #274042;
+}
+
+.about_me_btn:hover, .case_study:hover, .submit:hover {
+  background-color: #EA8F22;
 }
 
 /*-------------------------------------------------------------------------*/
