@@ -18,8 +18,7 @@
     change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
 46. project1.html > user personas
     Add circle and quote
-47. Make sure all circles are formatted correctly & text is italics
-48. Add parallelogram underneath the icons in the branding sections
+
 
 
 
@@ -62,3 +61,5 @@ DONE:
 51. change the view prototype button at the bottom of the case study to match the other Buttons
 49. logo round 3 is distorted
 50. Fix the images in the testing and prototyping section
+47. Make sure all circles are formatted correctly & text is italics
+48. Add parallelogram underneath the icons in the branding sections
