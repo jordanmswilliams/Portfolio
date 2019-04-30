@@ -580,7 +580,7 @@ Project1.html Intro CSS
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   align-self: start;
-  height: 20vh;
+  height: 10rem;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -593,7 +593,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   align-self: start;
-  height: 20vh;
+  height: 10rem;
   text-align: center;
   width: 100%;
   z-index: 10;
@@ -1493,7 +1493,7 @@ figure {
   background-color: #F7D1AC;
   /*padding: 2rem;*/
   grid-area: 1 / 1 / 1 / 13;
-  height: 20vh;
+  height: 10rem;
   width: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);

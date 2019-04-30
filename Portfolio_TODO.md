@@ -10,6 +10,7 @@
       the parallelogram and image are smaller
 43. CHROME > landing page > about me section
       the image is squished
+44. header_distributed add :hover state for links .gallery , .about
 
 DONE:
 
