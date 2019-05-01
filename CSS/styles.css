@@ -170,16 +170,16 @@ button {
 }
 
 .circle {
-  width: 50vh;
-  height: 50vh;
+/*  width: 50vh;
+  height: 50vh; */
   background: #F7D1AC;
   opacity: .3;
   border-radius: 50%
 }
 
 .circle2 {
-  width: 15vh;
-  height: 15vh;
+  width: 6rem;
+  height: 6rem;
   background: #F7D1AC;
   opacity: .9;
   border-radius: 50%;
@@ -222,8 +222,6 @@ button {
 }
 
 .hero_about .parallelogram {
-/*  transform: skew(-15deg) translate(9vw);
-  background-color: #F7D1AC; */
   height: 100%;
   width: 100%;
 }
@@ -299,8 +297,6 @@ button {
 }
 
 .hero .parallelogram {
-/*  transform: skew(-15deg) translate(9vw);
-  background-color: #F7D1AC; */
   height: 100%;
   width: 100%;
 }
@@ -325,6 +321,7 @@ button {
   background-color: #F7D1AC;
   grid-area: 3 / 3 / 8 / 9;
   z-index: 3;
+<<<<<<< HEAD
   margin: 2rem 1rem 1rem 1rem;
   /* align-self: end; */
 }
@@ -335,24 +332,11 @@ button {
   margin: 0px;
   align-self: end;
   margin-left: 40px;
+=======
+>>>>>>> 4614d3998fc5786cbc0928ca6faaae0b14b277c7
 }
-
-.hero_text {
-  transform: skew(0deg);
-  grid-area: 6 / 3 / 8 / 11;
-  margin: 0px;
-  align-self: start;
-  margin-left: 40px;
-}
-*/
 
 .hero_text_1 {
-  /*transform: skew(0deg);
-  grid-area: 7 / 3 / 9 / 10;
-  margin: 0px;
-  align-self: start;
-  margin-left: 40px;
-  */
   font-weight: 400;
   line-height: 5rem;
 }
@@ -370,7 +354,6 @@ button {
   grid-template-rows: 20vh 1fr 20vh;
   max-width:1000px;
   margin: auto;
-  /* padding: 3rem; */
 }
 
 .container .sections_landing .featured_work .featured_work_content {
@@ -397,35 +380,6 @@ button {
   height: 5rem;
 }
 
-
-/*.container .featured_work .case_study{
-  grid-area: 8 / 8 / 8 / 11;
-  max-height: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.featured_work .title {
-  grid-area: 6 / 8 / 5 / 13;
-  font-size: 7rem;
-  align-self: end;
-  margin: 0px;
-  justify-self: left;
-}
-
-.featured_work .body_text {
-  grid-area: 6 / 8 / 7 / 14;
-  max-width: 400px;
-  align-self: start;
-}
-
-.featured_work .roles {
-  grid-area: 5 / 8 / 4 / 13;
-  align-self: start;
-  margin: 0px;
-  align-self: end;
-}*/
-
 .featured_work .featured_img {
   grid-area: 2 / 1 / 2 / 1;
   justify-self: center;
@@ -443,7 +397,6 @@ button {
   grid-area: 2 / 1 / 2 / 1;
   align-self: center;
 }
-
 
 /*---------------------- LANDING PAGE -- About Me --------------------------*/
 /*-------------------------------------------------------------------------*/
@@ -546,11 +499,6 @@ Project1.html Intro CSS
   display: grid;
   grid-template-columns: repeat(6,1fr);
   grid-template-rows: auto auto auto auto auto;
-/*  max-width: 900px; */
-  /*min-height: 150vh;
-  max-height: 150vh;*/
-  /*height: 170vh;
-  width: 100vw;*/
 }
 
 .sections .intro .case_study_hero_img {
@@ -754,11 +702,8 @@ nav ul .active a {
   align-self: end;
   justify-self: end;
   z-index: 1;
-/*  width: 27vw;
-  height: 70vh; */
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
+  width: 50rem;
+  height: 50rem;
 }
 
 /*.daandr*/ .quotes {
@@ -885,12 +830,10 @@ nav ul .active a {
 .daandr .cir3{
   grid-area: 7 / 1 / 7 / 6;
   align-self: end;
-  /*justify-self: end;*/
   z-index: 1;
-  width: 100%;
-  /*height: 70vh;*/
-  transform: translateX(-7vw);
-  padding-top: 100%;
+  width: 50rem;
+  height: 50rem;
+  transform: translateX(3vw) translateY(-16vh)
 }
 
 .daandr .user_persona_wrapper {
@@ -912,15 +855,32 @@ nav ul .active a {
 
 .carousel{
   grid-area: 8 / 3 / 8 / 6;
-  height: 600px;
+/*  height: 60rem; */
+  min-height: 86rem;
 }
 
 .carousel .item {
   height: 500px;
 }
 
+.carousel.carousel-slider{
+  height: 2rem;
+}
+
+.carousel .indicators .indicator-item{
+  background-color: black;
+}
+
+.carousel .indicators .indicator-item.active{
+  background-color: black;
+}
+
 div .carousel .carousel-slider .initialized{
   height: 600px
+}
+
+.carousel-item{
+  background-color: #F1F8F9;
 }
 
 .item img {
@@ -936,6 +896,7 @@ div .carousel .carousel-slider .initialized{
   padding: 4rem;
 }
 
+<<<<<<< HEAD
 .carousel {
   height: 70rem !important;
   min-height: 800px !important;
@@ -949,6 +910,8 @@ div .carousel .carousel-slider .initialized{
   background-color: #558B91;
 }
 
+=======
+>>>>>>> 4614d3998fc5786cbc0928ca6faaae0b14b277c7
 .q2 {
   grid-area: 8 / 8 / 8 / 11;
 }
@@ -1028,9 +991,8 @@ th {
 
 .cir5 {
   grid-area: 6 / 8 / 6 / 13;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
+  width: 50rem;
+  height: 50rem;
 }
 
 .wireframe_1 {
@@ -1089,7 +1051,7 @@ figure {
 
 .branding .cir6 {
   grid-area: 3 / 1 / 3 / 6;
-  width: 100%;
+  width: 50rem;
   height: auto;
   padding-top: 100%;
 }
@@ -1198,7 +1160,7 @@ figure {
 
 .branding .cir7 {
   grid-area: 5 / 8 / 5 / 11;
-  width: 100%;
+  width: 35rem;
   height: auto;
   padding-top: 100%;
 }
@@ -1325,9 +1287,8 @@ figure {
 
 .branding .cir9 {
   grid-area: 8 / 8 / 8 / 11;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
+  width: 35rem;
+  height: 35rem;
 }
 
 .branding .logo_r1_wrapper {
@@ -1422,9 +1383,8 @@ figure {
 
 .branding .cir10 {
   grid-area: 14 / 8 / 14 / 11;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
+  width: 35rem;
+  height: 35rem;
 }
 
 /*-------------------------TESTING & PROTOTYPING -----------------------*/
@@ -1641,234 +1601,4 @@ figure {
   grid-area: 7 / 1 / 7 / 13;
 }
 
-/*
-@media(min-width: 500px) {
-  .container {
-     margin: 10px;
-     box-shadow: 1;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 5px solid white;
-     border-radius: 3%;
-  }
-}*/
-
-/* ************************************************************************* */
-/* Define attributes to apply to the footer                                  */
-/* ************************************************************************* */
-/*.container .footer_distributed{
-  /* Place the footer in the 3rd row o  f 3 rows on the main page */
-/*  grid-area: 3 / 1 / 3 / 6;
-}
-
-.footer-distributed{
-    grid-area: 4 / 1 / 4 / 6;
-    display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 1fr 1fr 1fr;
-
-    background-color: #EF9179;
-
-    width: 100%;
-    height: 460px;
-    }
-
-.parallelogram {
-  align-self: bottom;
-  height: auto;
-  transform: skew(-15deg) translateX(-9vw);
-  background-color: #F7D1AC;
-    grid-area: 4 / 1 / 1 / 4;
-}
-
-.footer-distributed svg {
-  max-width: 300%;
-  height: auto;
-    transform: skew(15deg) translateX(-9vw);
-/*  grid-area: 4 / 1 / 1 / 4; */
-}
-
-/*.footer-distributed h1{
-    font: bold 36px 'Playfair Display';
-    color: #274042;
-    margin: 0 0 10px;
-}
-
-.footer-distributed .footer-company-name{
-    font-family: 'Molengo', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 10px;
-    grid-area: 3 / 5 / 3 / 5;
-    justify-self: end;
-    align-self: end;
-}
-
-.footer-distributed .footer-icons{
-    margin-top: 40px;
-    grid-area: 3 / 4 / 3 / 5;
-    align-self: end;
-}
-
-.footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color:  #558B91;
-    border-radius: 2px;
-
-    font-size: 20px;
-    color: #EF9179;
-    text-align: center;
-    line-height: 35px;
-
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-/* The contact form */
-
-/*.footer-distributed form{
-    display: inline-block;
-    grid-area: 2 / 4 / 3 / 5;
-}
-
-.footer-distributed form input,
-.footer-distributed form textarea{
-    display: block;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color:  #F1F8F9;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    border: none;
-    resize: none;
-
-    font-family: 'Molengo', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    color:  #d1d2d2;
-
-    width: 400px;
-    padding: 8px;
-}
-
-.footer-distributed ::-webkit-input-placeholder {
-    color:  #5c666b;
-}
-
-.footer-distributed ::-moz-placeholder {
-    color:  #5c666b;
-    opacity: 1;
-}
-
-.footer-distributed :-ms-input-placeholder{
-    color:  #5c666b;
-}
-
-
-.footer-distributed form input{
-    /* height: 55px; */
-  /*  margin-bottom: 15px;
-}
-
-.footer-distributed form textarea{
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.footer-distributed form button{
-    border-radius: 3px;
-    background-color:  #F7B05B;
-    color: #274042;
-    border: 0;
-    padding: 15px 50px;
-    font-weight: bold;
-    float: left;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-/*@media screen and (min-width: 768px) {
-  .container{
-    width: 70rem;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .container{
-    width: 98rem;
-  }
-}
-
-@media (max-width: 1000px) {
-
-    .footer-distributed {
-        font: bold 14px sans-serif;
-    }
-
-    .footer-distributed .footer-company-name{
-        font-size: 12px;
-        margin: 10px;
-    }
-
-    .footer-distributed form input,
-    .footer-distributed form textarea{
-        width: 250px;
-    }
-
-    .footer-distributed form button{
-        padding: 10px 35px;
-    }
-
-}
-
-@media (max-width: 800px) {
-
-    .footer-distributed{
-        padding: 30px;
-    }
-
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-right{
-        float: none;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    .footer-distributed .footer-left{
-        margin-bottom: 40px;
-    }
-
-    .footer-distributed form{
-        margin-top: 30px;
-    }
-
-    .footer-distributed form{
-        display: block;
-    }
-
-    .footer-distributed form button{
-        float: none;
-    }
-}
-
-/* Save this stuff for possible use */
-/* Layout the page-level parallelogram spanning across the header and main body */
-/*.container .parallelogram-para1{
-/*  align-self: bottom; */
-/*  height: 640px; /* this may need to change to auto to be dynamic */
-  /*transform: skew(-15deg) translateX(-15vw);
-  background: #91bdae;
-    grid-area: 1 / 1 / 3 / 6;
-}
-
-.container img{
-  height: 215px;
-  transform: skew(0deg);
-  grid-area: 2 / 2 / 2 / 2;
-}
-
-.container .body_distributed{
-  grid-area: 3 / 2 / 3 / 4;
 }
