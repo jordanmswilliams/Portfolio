@@ -290,6 +290,8 @@ button {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(7, 4rem);
+  min-width: 100rem;
+  max-width: 110rem;
   /* min-height: 80vh;
   max-height: 80vh; */
 }
@@ -309,7 +311,7 @@ button {
 .hero_about .jordan_img1 {
   grid-area: 3 / 9 / -1 / 13;
   width: 100%;
-  max-width: 60rem;
+  max-width: 21rem;
   padding: 1rem;
   z-index: 2;
 }
