@@ -23,10 +23,10 @@ p {
   margin-top: 1rem;
 }
 
-img {
+/*img {
   max-width: 100%;
   max-height: 100%;
-}
+}*/
 
 /* Set default h1 parameters */
 h1 {
@@ -321,7 +321,6 @@ button {
   background-color: #F7D1AC;
   grid-area: 3 / 3 / 8 / 9;
   z-index: 3;
-<<<<<<< HEAD
   margin: 2rem 1rem 1rem 1rem;
   /* align-self: end; */
 }
@@ -332,8 +331,6 @@ button {
   margin: 0px;
   align-self: end;
   margin-left: 40px;
-=======
->>>>>>> 4614d3998fc5786cbc0928ca6faaae0b14b277c7
 }
 
 .hero_text_1 {
@@ -518,7 +515,7 @@ Project1.html Intro CSS
 }
 
 .ds_logo img{
-  height: auto;
+  height: 18rem;
   width: 36rem;
 }
 
@@ -896,7 +893,6 @@ div .carousel .carousel-slider .initialized{
   padding: 4rem;
 }
 
-<<<<<<< HEAD
 .carousel {
   height: 70rem !important;
   min-height: 800px !important;
@@ -910,8 +906,6 @@ div .carousel .carousel-slider .initialized{
   background-color: #558B91;
 }
 
-=======
->>>>>>> 4614d3998fc5786cbc0928ca6faaae0b14b277c7
 .q2 {
   grid-area: 8 / 8 / 8 / 11;
 }
@@ -978,6 +972,8 @@ th {
 
 .user_flows_img {
   grid-area: 5 / 1 / 5 / 13;
+  max-width: 100%;
+  max-height: none;
 }
 
 .wireframes {
