@@ -311,7 +311,7 @@ button {
 .hero_about .jordan_img1 {
   grid-area: 3 / 9 / -1 / 13;
   width: 100%;
-  max-width: 60rem;
+  max-width: 21rem;
   padding: 1rem;
   z-index: 2;
 }
