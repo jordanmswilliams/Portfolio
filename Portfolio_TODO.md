@@ -1,5 +1,4 @@
 1. Case study main body uses .section -> change to .section_CS for future
-
 7. (Jordan - low priority)
   Make the quad graph a responsive CSS drawing.
     - D: I don't know what this means. Can you explain?
@@ -15,7 +14,6 @@
 46. project1.html > user personas
     Add circle and quote
 47. Gallery vs. Portfolio
-48. Fix Chrome issues - missing issues
 49. Might take a swing at fixing the line drawing from the footer in a group session
 50. Might put copyright first then the date ( see what standard is)
 51. Home Page - too much ' white ' space
@@ -24,9 +22,9 @@
 61. Make logo a little smaller
 63. Header feels a little sparse
 70. Add more margin in footer in bottom and right
-
-
-
+71. Go through and change H tags
+72. project1 > testing & prototypes > file upload , dashboard, doc editor,     landing page
+    add "before" & "after" text under images
 
 DONE:
 
@@ -84,3 +82,4 @@ DONE:
 64. Make Duration and Role above each other - then next to single list of Tools
 65. Add padding to carousel and anchor
 66. Make wireframe pictures bigger
+48. Fix Chrome issues - missing issues
