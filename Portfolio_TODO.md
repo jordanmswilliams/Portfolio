@@ -9,15 +9,21 @@
     Look at Firefox Inspect tool for ability to render different media formats
 32. Update about me teaser text.
 41. link the buttons on index.html to the about me page and the case study
-42. CHROME > landing page > featured work section
-      the parallelogram and image are smaller
-43. CHROME > landing page > about me section
-      the image is squished
 44. header_distributed add :hover state for links .gallery , .about
 45. project1.html > user personas > carousel
     change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
 46. project1.html > user personas
     Add circle and quote
+47. Gallery vs. Portfolio
+48. Fix Chrome issues - missing issues
+49. Might take a swing at fixing the line drawing from the footer in a group session
+50. Might put copyright first then the date ( see what standard is)
+51. Home Page - too much ' white ' space
+58. Shrink the height of the parallelogram
+59. Tighten Gallery and About together
+61. Make logo a little smaller
+63. Header feels a little sparse
+70. Add more margin in footer in bottom and right
 
 
 
@@ -63,3 +69,18 @@ DONE:
 50. Fix the images in the testing and prototyping section
 47. Make sure all circles are formatted correctly & text is italics
 48. Add parallelogram underneath the icons in the branding sections
+54. Add margin top to footer
+42. CHROME > landing page > featured work section
+      the parallelogram and image are smaller
+43. CHROME > landing page > about me section
+      the image is squished
+52. Remove breaks and use headers to drive spacing via margins
+53. Same on paragraph
+55. Bold the about me headers
+56. Have About Me header overlap the parallelogram
+57. Move jo pic to overlap the edge of the parallelogram
+60. Overlap the bottom peach parall into the blue space below
+62. Buttons a little small and timid (1.5 larger)
+64. Make Duration and Role above each other - then next to single list of Tools
+65. Add padding to carousel and anchor
+66. Make wireframe pictures bigger
