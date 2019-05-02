@@ -1,23 +1,12 @@
-1. Case study main body uses .section -> change to .section_CS for future
-7. (Jordan - low priority)
-  Make the quad graph a responsive CSS drawing.
-    - D: I don't know what this means. Can you explain?
-20. Add third carousel item to project1.html
-21. Move head and footer to include files (to reduce need to maintain them separately on each HTML page)
+HIGH priority
 22. (Jordan & Robin - HIGH priority)
     Look at Firefox Inspect tool for ability to render different media formats
-32. Update about me teaser text.
 41. link the buttons on index.html to the about me page and the case study
 44. header_distributed add :hover state for links .gallery , .about
-45. project1.html > user personas > carousel
-    change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
 46. project1.html > user personas
     Add circle and quote
-47. Gallery vs. Portfolio
-49. Might take a swing at fixing the line drawing from the footer in a group session
 50. Might put copyright first then the date ( see what standard is)
 51. Home Page - too much ' white ' space
-58. Shrink the height of the parallelogram
 59. Tighten Gallery and About together
 61. Make logo a little smaller
 63. Header feels a little sparse
@@ -25,6 +14,21 @@
 71. Go through and change H tags
 72. project1 > testing & prototypes > file upload , dashboard, doc editor,     landing page
     add "before" & "after" text under images
+
+LOW priority
+7. (Jordan - low priority)
+  Make the quad graph a responsive CSS drawing.
+    - D: I don't know what this means. Can you explain?
+20. Add third carousel item to project1.html
+21. Move head and footer to include files (to reduce need to maintain them separately on each HTML page)
+1. Case study main body uses .section -> change to .section_CS for future (for continuity when adding further pages)
+45. project1.html > user personas > carousel
+    change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
+47. Gallery vs. Portfolio
+49. Might take a swing at fixing the line drawing from the footer in a group session
+58. Shrink the height of the parallelogram
+
+
 
 DONE:
 
