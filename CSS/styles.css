@@ -541,6 +541,7 @@ section.recentwork {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto auto auto;
+  padding-bottom: 10rem;
 }
 
 /********************************************************
@@ -552,6 +553,9 @@ Project1.html Intro CSS
   background-color: #558B91;
 } */
 
+section{
+  padding-bottom: 10rem;
+}
 /* grid templates for each section */
 .container .sections .intro{
   grid-area: 1 / 1 / 1 / 5;
@@ -560,6 +564,7 @@ Project1.html Intro CSS
   display: grid;
   grid-template-columns: repeat(6,1fr);
   grid-template-rows: auto auto auto auto auto;
+/*  padding-bottom: 0rem; */
 }
 
 .sections .intro .case_study_hero_img {
@@ -623,7 +628,7 @@ nav {
   font-size: 2rem;
 
   align-self: start;
-  height: 10rem;
+/*  height: 10rem; */
   text-align: center;
   width: 100%;
   z-index: 10;
@@ -1686,7 +1691,7 @@ figure {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 1fr;
-  margin-top: 10rem;
+/*  margin-top: 10rem; */
 }
 
 .sections .section_h2 {
