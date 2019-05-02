@@ -5,12 +5,10 @@ HIGH priority
 44. header_distributed add :hover state for links .gallery , .about
 46. project1.html > user personas
     Add circle and quote
-50. Might put copyright first then the date ( see what standard is)
 51. Home Page - too much ' white ' space
 59. Tighten Gallery and About together
 61. Make logo a little smaller
 63. Header feels a little sparse
-70. Add more margin in footer in bottom and right
 71. Go through and change H tags
 72. project1 > testing & prototypes > file upload , dashboard, doc editor,     landing page
     add "before" & "after" text under images
@@ -87,3 +85,5 @@ DONE:
 65. Add padding to carousel and anchor
 66. Make wireframe pictures bigger
 48. Fix Chrome issues - missing issues
+70. Add more margin in footer in bottom and right
+50. Might put copyright first then the date ( see what standard is)

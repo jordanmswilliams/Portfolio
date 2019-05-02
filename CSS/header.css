@@ -15,7 +15,8 @@
   align-self: start;
   margin: 1rem;
   max-width: 300%;
-  height: auto;
+  /*height: auto;*/
+  width:7rem;
 }
 
 .gallery, .about{
@@ -28,6 +29,17 @@
   align-self: start;
 /*  text-decoration: none; */
   padding: 2rem 3rem;
+}
+
+.gallery h6 {
+  color: white;
+  font-weight: 400;
+}
+
+.about h6{
+  color: #274042;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .gallery{
