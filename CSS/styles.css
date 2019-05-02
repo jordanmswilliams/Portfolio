@@ -913,11 +913,6 @@ nav ul .active a {
   grid-area: 8 / 3 / 8 / 6;
 }
 
-.black2{
-  grid-area: 8 / 3 / 8 / 7;
-  margin-top: 5rem;
-}
-
 .up {
   grid-area: 8 / 3 / 8 / 7;
 }
@@ -926,18 +921,37 @@ nav ul .active a {
   font-weight: 600;
 }
 
+/* Carousel */
+
+.black2{
+  grid-area: 8 / 3 / 8 / 7;
+  margin-top: 5rem;
+}
+
 .carousel{
-  grid-area: 8 / 3 / 8 / 6;
-/*  height: 60rem; */
   min-height: 86rem;
 }
 
-.carousel .item {
+.carousel .carousel-slider {
   height: 500px;
 }
 
-.carousel.carousel-slider{
-  height: 2rem;
+.carousel-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1,auto);
+  height: 500px;
+  background-color: #F1F8F9;
+}
+
+.carousel-item .container2{
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #B1CACD;
+  padding: 4rem;
+}
+
+.carousel-item h2{
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 .carousel .indicators .indicator-item{
@@ -948,12 +962,8 @@ nav ul .active a {
   background-color: black;
 }
 
-div .carousel .carousel-slider .initialized{
-  height: 600px
-}
-
-.carousel-item{
-  background-color: #F1F8F9;
+.indicators .indicator-item {
+  background-color: #558B91;
 }
 
 .item img {
@@ -964,23 +974,7 @@ div .carousel .carousel-slider .initialized{
     min-height: 500px;
 }
 
-.container2{
-  background-color: #B1CACD;
-  padding: 4rem;
-}
-
-.carousel {
-  height: 70rem !important;
-  min-height: 800px !important;
-}
-
-.carousel-item{
-  background-color: #F1F8F9;
-}
-
-.indicators .indicator-item {
-  background-color: #558B91;
-}
+/*  End Carousel */
 
 .q2 {
   grid-area: 8 / 8 / 8 / 11;
