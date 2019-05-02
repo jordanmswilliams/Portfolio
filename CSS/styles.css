@@ -260,10 +260,6 @@ button {
   border-radius: 50%;
 }
 
-.container {
-  max-width: none;
-}
-
 /* ************************************************************************* */
 /* main-distributed{} defines attributes that are applicable to the entire page */
 /* ************************************************************************* */
@@ -274,6 +270,8 @@ button {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /* Breaking the page into eight rows: a header, six sections & a footer */
   grid-template-rows: 1fr auto;
+  overflow-x: hidden;
+  max-width: none;
 }
 
 /* ----------------- ABOUT ME - GRID FOR MAIN SECTIONS --------------------- */
@@ -331,6 +329,7 @@ button {
   list-style-type: square;
   list-style-position: inside;
 }
+
 /* ----------------- LANDING PAGE - GRID FOR MAIN SECTIONS ------------------ */
 
 .container .sections_landing{
@@ -354,7 +353,7 @@ button {
 .hero .hero_text_content{
   grid-area: 3 / 4 / -1 / 8;
   z-index: 4;
-  color: #274042;
+/*  color: #274042; */
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -399,19 +398,6 @@ button {
   z-index: 3;
   margin: 2rem 1rem 1rem 1rem;
   /* align-self: end; */
-}
-
-/*.hero_text_2 {
-  transform: skew(0deg);
-  grid-area: 5 / 3 / 6 / 6;
-  margin: 0px;
-  align-self: end;
-  margin-left: 40px;
-}
-
-.hero_text_1 {
-  font-weight: 400;
-  line-height: 5rem;
 }
 
 /*----------------------LANDING PAGE - featured work--------------------------*/
