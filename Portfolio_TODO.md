@@ -12,7 +12,9 @@ HIGH priority
 71. Go through and change H tags
 72. project1 > testing & prototypes > file upload , dashboard, doc editor,     landing page
     add "before" & "after" text under images
+user flows
 
+add br instead of p tag
 LOW priority
 7. (Jordan - low priority)
   Make the quad graph a responsive CSS drawing.
