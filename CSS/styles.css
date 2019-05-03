@@ -394,8 +394,10 @@ button {
 .p_btn{
   color: #274042;
   background-color: #F7B05B;
-  padding: 1rem 5rem 1rem 5rem;
-  height: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .hero .parallelogram {
@@ -518,7 +520,17 @@ button {
   color: #274042;
   padding-left: 5rem;
   padding-right: 5rem;
-  height: 5rem;
+}
+
+.sections .intro .proto_btn {
+  grid-area: 3 / 3 / 4 / 5;
+  background-color: #F7B05B;
+  color: #274042;
+  width: 20rem;
+  justify-self: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  z-index: 20;
 }
 
 .featured_work .featured_img {
@@ -610,7 +622,6 @@ button {
   color: #274042;
   padding-left: 5rem;
   padding-right: 5rem;
-  height: 5rem;
 }
 
 .about_me_btn:hover, .case_study:hover, .submit:hover, .btn_lessons:hover {
@@ -687,7 +698,7 @@ section{
 }
 
 .sections .intro .case_study_hero_img {
-  grid-area: 4 / 1 / 4 / 7;
+  grid-area: 5 / 1 / 6 / 7;
   align-self: center;
   justify-self: center;
   height: 60vh;
@@ -708,7 +719,7 @@ section{
 }
 
 .sections .intro .hero_text_content_cs1 {
-  grid-area: 3 / 3 / 3 / 5;
+  grid-area: 4 / 3 / 5 / 5;
   text-align: center;
 }
 
@@ -720,6 +731,7 @@ section{
 .sections .intro .p_intro {
   color: #F1F8F9;
   align-self: center;
+  padding-bottom: 3rem;
 }
 
 /**************************************************************/
