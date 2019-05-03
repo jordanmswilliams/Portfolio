@@ -1,32 +1,26 @@
 HIGH priority
-22. (Jordan & Robin - HIGH priority)
-    Look at Firefox Inspect tool for ability to render different media formats
-41. link the buttons on index.html to the about me page and the case study
+22. Look at Firefox Inspect tool for ability to render different media formats
 44. header_distributed add :hover state for links .gallery , .about
-46. project1.html > user personas
-    Add circle and quote
-51. Home Page - too much ' white ' space
-59. Tighten Gallery and About together
-61. Make logo a little smaller
-63. Header feels a little sparse
-71. Go through and change H tags
 72. project1 > testing & prototypes > file upload , dashboard, doc editor,     landing page
     add "before" & "after" text under images
-user flows
+73. user flows change the image so it's thinner (download new img)
+74. Make the quad graph a responsive CSS drawing.
+75. make the comp ana icons smaller and better aligned
+76. project1 > user personas > quote - add max-width so it doesn't overlap with user persona & pull the text in front of the circle , maybe make it a smaller circle inside the grid so we don't have problems with sizing , user personas title is not formatted correctly, also align title with edge of user persona but make sure it is in alignment with content above
+77. font selection is not rendering the correct fonts (archivo, roboto etc.)
+78. look at spacing on parallelogram with icons.... either make the circle smaller so there is less white space or push the para into the row above.
+79. work on the testing and prototyping section to see if the two columns will align with the grid 3-6 & 8-11 and be responsive. Also add three columns to the landing page section.
+80. lessons learned > change section header to conclusion and pull lessons learned down as a title.
+81. rewrite about me - work on page formatting so it looks better when expanded on a bigger screen add Dasha icons
+82. Start looking at adding some animations to shapes etc.
 
-add br instead of p tag
 LOW priority
-7. (Jordan - low priority)
-  Make the quad graph a responsive CSS drawing.
-    - D: I don't know what this means. Can you explain?
-20. Add third carousel item to project1.html
 21. Move head and footer to include files (to reduce need to maintain them separately on each HTML page)
 1. Case study main body uses .section -> change to .section_CS for future (for continuity when adding further pages)
-45. project1.html > user personas > carousel
-    change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
 47. Gallery vs. Portfolio
 49. Might take a swing at fixing the line drawing from the footer in a group session
-58. Shrink the height of the parallelogram
+
+
 
 
 
@@ -89,3 +83,15 @@ DONE:
 48. Fix Chrome issues - missing issues
 70. Add more margin in footer in bottom and right
 50. Might put copyright first then the date ( see what standard is)
+20. Add third carousel item to project1.html
+45. project1.html > user personas > carousel
+    change to click for next persona instead of auto rotate. The rotation isn't long enough to read information. I won't have to necessarily create a third persona if it's clickable instead of auto rotate.
+58. Shrink the height of the parallelogram
+46. project1.html > user personas
+    Add circle and quote
+51. Home Page - too much ' white ' space
+59. Tighten Gallery and About together
+61. Make logo a little smaller
+63. Header feels a little sparse
+71. Go through and change H tags
+41. link the buttons on index.html to the about me page and the case study
