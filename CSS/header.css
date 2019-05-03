@@ -16,7 +16,8 @@
   margin: 1rem;
   max-width: 300%;
   /*height: auto;*/
-  width:7rem;
+  width:10rem;
+  padding-left: 3rem;
 }
 
 .gallery, .about{
@@ -28,29 +29,29 @@
 /*  transform: skew(0deg); */
   align-self: start;
 /*  text-decoration: none; */
-  padding: 2rem 3rem;
+  padding: 1rem 5rem 0rem 0rem;
 }
 
 .gallery h6 {
   color: #274042;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;
 }
 
 .about h6{
   color: #274042;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;
 }
 
 .gallery{
   /* Place Gallery link in fourth column of the only row in the header grid */
-  grid-area: 1 / 4 / 1 / 4;
-  justify-self: end;
+  grid-area: 1 / 5 / 1 / 5;
+  justify-self: right;
 }
 
 .about{
   /* Place About link in fourth column of the only row in the header grid */
-  grid-area: 1 / 5 / 1 / 5;
+  grid-area: 1 / 6 / 1 / 6;
   justify-self: start;
 }
