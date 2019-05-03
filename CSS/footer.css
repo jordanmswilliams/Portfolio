@@ -53,6 +53,15 @@
     z-index: 1;
 }
 
+/* iphone media queries */
+/*
+.footer-distributed .footer-icons{
+    grid-area: 3 / 1 / 3 / 6;
+    justify-self: center;
+}
+*/
+
+
 .footer-distributed .footer-icons a{
     display: inline-block;
     width: 35px;
@@ -76,6 +85,14 @@
     display: inline-block;
     grid-area: 2 / 4 / 3 / 6;
 }
+
+/* iphone media query*/
+/*
+.footer-distributed form{
+    grid-area: 1 / 2 / 3 / 7;
+    z-index: 1;
+    padding-bottom: 4rem;
+}*/
 
 .footer-distributed form input,
 .footer-distributed form textarea{
@@ -164,12 +181,19 @@
         padding: 10px 35px;
     }
 
+/* iphone media query */
+/*
+    .footer-distributed form button{
+        padding: 3px 103px;
+    }
+    */
+
 }
 
 @media (max-width: 800px) {
 
     .footer-distributed{
-        padding: 30px;
+      /*  padding: 30px;*/
     }
 
     .footer-distributed .footer-left,

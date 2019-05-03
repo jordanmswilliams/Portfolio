@@ -19,6 +19,16 @@
   width:10rem;
   padding-left: 3rem;
 }
+/*-----write a media query -----*/
+/* iphone style
+.logo_rose{
+  /* Place header logo on the container .header_distributed 3X5 grid */
+  /*
+  margin: none;
+  max-width: 300%;
+  width:6rem;
+  padding-left: 1rem;
+} */
 
 .gallery, .about{
 /*  font-family: 'Montserrat', sans-serif;
@@ -38,11 +48,22 @@
   text-decoration: underline;
 }
 
+/* iphone media query */
+/*.gallery h6 {
+  font-size: 1.5rem;
+}*/
+
 .about h6{
   color: #274042;
   font-weight: 500;
   text-decoration: underline;
 }
+
+/* iphone media query */
+/*.about h6 {
+  font-size: 1.5rem;
+}*/
+
 
 .gallery{
   /* Place Gallery link in fourth column of the only row in the header grid */
