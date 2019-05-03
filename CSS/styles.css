@@ -76,7 +76,7 @@ h1 {
 /*
 h1 {
   font-size: 3rem;
-}
+} */
 
 
 h1 span {
@@ -521,6 +521,17 @@ button {
   height: 5rem;
 }
 
+.sections .intro .proto_btn {
+  grid-area: 3 / 3 / 4 / 5;
+  background-color: #F7B05B;
+  color: #274042;
+  width: 20rem;
+  justify-self: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  z-index: 20;
+}
+
 .featured_work .featured_img {
   grid-area: 2 / 1 / 2 / 1;
   justify-self: center;
@@ -687,7 +698,7 @@ section{
 }
 
 .sections .intro .case_study_hero_img {
-  grid-area: 4 / 1 / 4 / 7;
+  grid-area: 5 / 1 / 6 / 7;
   align-self: center;
   justify-self: center;
   height: 60vh;
@@ -708,7 +719,7 @@ section{
 }
 
 .sections .intro .hero_text_content_cs1 {
-  grid-area: 3 / 3 / 3 / 5;
+  grid-area: 4 / 3 / 5 / 5;
   text-align: center;
 }
 
