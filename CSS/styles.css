@@ -64,7 +64,7 @@ p {
 h1 {
   font-size: 8rem;
   line-height: 1;
-  margin: 2rem 0 1rem 0;
+  padding: 1rem 0rem;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Playfair Display', serif;
@@ -81,7 +81,7 @@ h1 span {
 /* Set default h2 parameters */
 h2 {
   font-size: 5rem;
-  margin-top: 2rem;
+  padding: 1rem 0rem;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Playfair Display', serif;
@@ -92,7 +92,9 @@ h2 {
 /* Set default h3 parameters */
 h3 {
   font-size: 4rem;
-  padding: 3rem 0 2rem 0;
+  padding: 1rem 0rem;
+
+  /* padding: 3rem 0 2rem 0; */
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Playfair Display', serif;
@@ -103,7 +105,7 @@ h3 {
 /* No difference between h3 and h3_reg */
 .h3_reg {
   font-size: 4rem;
-  padding: 3rem 0 2rem 0;
+  padding: 1rem 0rem;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Playfair Display', serif;
@@ -114,6 +116,7 @@ h3 {
 /* Set default h4 parameters */
 h4 {
   font-size: 4rem;
+  padding: 1rem 0rem;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Montserrat', sans-serif;
@@ -125,7 +128,7 @@ h4 {
 /* Set default h5 parameters */
 h5 {
   font-size: 3rem;
-  margin-top: 2rem;
+  padding: 1rem 0rem;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Montserrat', sans-serif;
@@ -137,8 +140,9 @@ h5 {
 /* Set default h6 parameters */
 h6 {
   font-size: 2rem;
-  line-height: 1;
-  margin: 2rem 0 1rem 0;
+  padding: 1rem 0rem;
+  /*line-height: 1; */
+  /*margin: 2rem 0 1rem 0; */
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Montserrat', sans-serif;
@@ -162,8 +166,6 @@ h7 {
 
 h8 {
   font-size: 1.4rem;
-  margin-top: 2rem;
-  text-align: center;
 
   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
   font-family: 'Montserrat', sans-serif;
@@ -930,7 +932,7 @@ nav ul .active a {
 /* Carousel */
 
 .black2{
-  grid-area: 8 / 3 / 8 / 7;
+  grid-area: 8 / 3 / 8 / 11;
   margin-top: 5rem;
 }
 
@@ -943,21 +945,81 @@ nav ul .active a {
 }
 
 .carousel-item {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1,auto);
   height: 500px;
   background-color: #F1F8F9;
 }
 
 .carousel-item .container2{
-  grid-area: 1 / 1 / 2 / 2;
-  background-color: #B1CACD;
+  display: grid;
+  grid-template-columns: 34rem 1fr 21rem;
+  grid-template-rows: 22rem 6rem 3rem 3rem 1fr 4rem 12rem;
+  /*background-color: #dbf0f6; */
   padding: 4rem;
 }
 
-.carousel-item h2{
-  grid-area: 1 / 2 / 2 / 3;
+.carousel-item .container2 .lfield{
+  grid-area: 1 / 1 / 8 / 2;
+  background-color: #dbf0f6;
+  padding: 20rem;
+}
+
+.carousel-item .container2 a{
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 3rem 3rem;
+}
+
+.carousel-item .container2 h3{
+  grid-area: 2 / 1 / 3 / 2;
+  padding-left: 3rem;
+}
+
+.carousel-item .container2 h8{
+  grid-area: 3 / 1 / 4 / 2;
+  padding-left: 3rem;
+}
+
+.motivation{
+  grid-area: 4 / 1 / 5 / 2;
+  padding-left: 3rem;
+}
+
+.carousel-item .container2 p{
+  grid-area: 5 / 1 / 6 / 2;
+  padding-left: 3rem;
+}
+
+.frustration{
+  grid-area: 6 / 1 / 7 / 2;
+  padding-left: 3rem;
+}
+
+.carousel-item .container2 ul{
+  grid-area: 7 / 1 / 8 / 2;
+  padding-left: 3rem;
+}
+
+.carousel-item .container2 ul li{
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+.carousel-item .container2 h2{
+  grid-area: 2 / 3 / 4 / 4;
+  font-size: 4rem !important;
+  justify-self: end;
+  font-style: italic;
+  line-height: 1 !important;
+  transform: translateX(-9rem);
+}
+
+.cir20{
+  grid-area: 8 / 8 / 8 / 13;
+  justify-self: end;
+  width: 70rem;
+  height: 70rem;
+  align-self: center;
+  transform: translateX(12rem);
 }
 
 .carousel .indicators .indicator-item{
