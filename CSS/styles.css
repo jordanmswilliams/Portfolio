@@ -293,6 +293,15 @@ button {
   grid-template-rows: repeat(3, auto);
 }
 
+/* iphone query */
+/*
+.container .sections_about{
+  grid-area: 2 / 1 / 2 / 7;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+} */
+
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
 
 .container .sections_about .hero_about{
@@ -312,30 +321,54 @@ button {
 }
 
 .hero_about .para4{
-  transform: skew(-15deg) translate(-8vw);
+  transform: skew(-15deg) translate(-2vw);
   background-color: #91bdae;
-  grid-area: 1 / 1 / 8 / 12;
+  grid-area: 1 / 1 / 6 / 15;
   z-index: 1;
 }
 
+/* iphone query */
+/*
+.hero_about .para4{
+  transform: skew(-15deg) translate(-11vw);
+  grid-area: 1 / 1 / 8 / 15;
+}
+*/
+
 .hero_about .jordan_img1 {
-  grid-area: 3 / 9 / -1 / 13;
+  grid-area: 2 / 10 / -1 / 13;
   width: 100%;
   max-width: 21rem;
   padding: 1rem;
   z-index: 2;
 }
 
+/* iphone query */
+/*
+.hero_about .jordan_img1 {
+  grid-area: 4 / 3 / 4 / 5;
+  width: 83%;
+} */
+
+
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
 
 .sections_about .content_about {
-  /*grid-area: 2 / 1 / 2 / 3; */
-  padding: 5rem;
-  max-width:650px;
-  margin-top: -11rem;
+  grid-area: 2 / 2 / 2 / 4;
+  padding-bottom: 10rem;
+  max-width: 50rem;
+  margin-top: -3rem;
   width: calc(100vw - 2rem);
   z-index: 2;
 }
+
+/* iphone query */
+/*
+.sections_about .content_about {
+  grid-area: 2 / 1;
+  max-width: 30rem;
+  justify-self: center;
+} */
 
 .sections_about .content_about ul li{
   list-style-type: square;
