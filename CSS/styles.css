@@ -44,6 +44,202 @@ body {
   color: #101A1B; */
 }
 
+p {
+  /* This should not be needed since it's already set at the body level */
+  /* background-color: #F1F8F9; */
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #101A1B; */
+
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Set default h1 parameters */
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  padding: 1rem 0rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #274042; */
+}
+
+/* iphone query */
+/*
+h1 {
+  font-size: 3rem;
+} */
+
+
+h1 span {
+  font-weight: 700;
+  /* color does not need to be defined here since it's already defined for h1 */
+  color: #274042;
+}
+
+/* Set default h2 parameters */
+h2 {
+  font-size: 5rem;
+  padding: 1rem 0rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #274042; */
+}
+
+/* Set default h3 parameters */
+h3 {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+
+  /* padding: 3rem 0 2rem 0; */
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #274042; */
+}
+
+/* No difference between h3 and h3_reg */
+.h3_reg {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #274042; */
+}
+
+/* Set default h4 parameters */
+h4 {
+  font-size: 4rem;
+  padding: 1rem 0rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; */
+  /* Got a color override here - is this intentional? */
+  color: #274042;
+}
+
+/* Set default h5 parameters */
+h5 {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; */
+  /* Got a color override here - is this intentional? */
+  color: #274042;
+}
+
+/* Set default h6 parameters */
+h6 {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  /*line-height: 1; */
+  /*margin: 2rem 0 1rem 0; */
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; */
+
+  /* Got a color override here - is this intentional? */
+  color: #274042;
+}
+
+/* Set default h7 parameters */
+h7 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; */
+  /* Got a color override here - is this intentional? */
+  color: #274042;
+}
+
+h8 {
+  font-size: 1.4rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; */
+  /* Got a color override here - is this intentional? */
+  color: #274042;
+}
+
+/* can switch this to h6 */
+h9 {
+  font-size: 2rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+  font-family: 'Archivo Black', sans-serif;
+}
+
+/* can switch this to h6 */
+h10 {
+  font-size: 2rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* can switch this to h6 */
+ h11{
+   font-size: 2rem;
+
+   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+ }
+
+/* can switch this to h6 */
+ h12 {
+   font-size: 2rem;
+
+   /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+ }
+
+/* Set default italic quotes parameters */
+.italic_quotes {
+  font-size: 5rem;
+  margin-top: 2rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #274042;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin: auto;
+  padding-bottom: .7rem;
+
+  /* Probably need to move these font items to a class of their own for selective use since it's not used everywhere */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #274042;
+}
+
+
+@media (min-width: 700px){
 /* Set default paragraph parameters */
 p {
   /* This should not be needed since it's already set at the body level */
@@ -239,6 +435,8 @@ li {
   color: #274042;
 }
 
+}
+
 button {
   background-color: #F7B05B;
   border: none;
@@ -282,6 +480,7 @@ button {
   grid-template-rows: 1fr auto;
   overflow-x: hidden;
   max-width: none;
+  width: 100%;
 }
 
 /* ----------------- ABOUT ME - GRID FOR MAIN SECTIONS --------------------- */
@@ -289,86 +488,123 @@ button {
 .container .sections_about{
   grid-area: 2 / 1 / 2 / 7;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
 }
 
-/* iphone query */
-/*
-.container .sections_about{
-  grid-area: 2 / 1 / 2 / 7;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
-} */
+/* desktop query */
+@media (min-width: 700px) {
+  .container .sections_about{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
 
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
 
 .container .sections_about .hero_about{
-  grid-area: 1 / 1 / 1 / 5;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-area: 1/1;
   grid-template-rows: repeat(7, 4rem);
-  min-width: 100rem;
-  max-width: 110rem;
-  /* min-height: 80vh;
-  max-height: 80vh; */
+  grid-template-columns: repeat(12, 1fr);
 }
+
+@media (min-width: 700px) {
+  .container .sections_about .hero_about{
+    grid-area: 1 / 1 / 1 / 5;
+    grid-template-columns: repeat(12, 1fr);
+    min-width: 100rem;
+    max-width: 110rem;
+    /* min-height: 80vh;
+    max-height: 80vh; */
+  }
+}
+
+
+/*
+@media (min-width: 700px) {
+  .container .sections_about .hero_about{
+    grid-area: 1 / 1 / 1 / 5;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 4rem);
+    min-width: 100rem;
+    max-width: 110rem;
+    /* min-height: 80vh;
+    max-height: 80vh; */
+/*  }
+}*/
 
 .hero_about .parallelogram {
   height: 100%;
   width: 100%;
 }
 
-.hero_about .para4{
-  transform: skew(-15deg) translate(-2vw);
-  background-color: #91bdae;
-  grid-area: 1 / 1 / 6 / 15;
-  z-index: 1;
-}
-
 /* iphone query */
-/*
 .hero_about .para4{
   transform: skew(-15deg) translate(-11vw);
   grid-area: 1 / 1 / 8 / 15;
+  background-color: #91bdae;
+  z-index: 1;
 }
-*/
+
+@media (min-width: 700px) {
+  .hero_about .para4{
+    transform: skew(-15deg) translate(-2vw);
+    grid-area: 1 / 1 / 6 / 15;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .hero_about .para4{
+    grid-area: 1 / 1 / 6 / 9;
+  }
+}
+
+/* iphone query */
 
 .hero_about .jordan_img1 {
-  grid-area: 2 / 10 / -1 / 13;
-  width: 100%;
+  grid-area: 4 / 9 / 4 / 13;
+  width: 107%;
   max-width: 21rem;
   padding: 1rem;
   z-index: 2;
 }
 
-/* iphone query */
-/*
-.hero_about .jordan_img1 {
-  grid-area: 4 / 3 / 4 / 5;
-  width: 83%;
-} */
-
-
-/* -----------------------ABOUT PAGE HERO ---------------------------------*/
-
-.sections_about .content_about {
-  grid-area: 2 / 2 / 2 / 4;
-  padding-bottom: 10rem;
-  max-width: 50rem;
-  margin-top: -3rem;
-  width: calc(100vw - 2rem);
-  z-index: 2;
+@media (min-width: 700px) {
+  .hero_about .jordan_img1 {
+    grid-area: 2 / 10 / -1 / 13;
+    width: 100%;
+  }
 }
 
-/* iphone query */
-/*
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .hero_about .jordan_img1 {
+    grid-area: 2 / 7 / -1 / 9;
+  }
+
+/* -----------------------ABOUT PAGE HERO ---------------------------------*/
 .sections_about .content_about {
   grid-area: 2 / 1;
   max-width: 30rem;
   justify-self: center;
-} */
+}
+
+@media (min-width: 700px) {
+  .sections_about .content_about {
+    grid-area: 2 / 2 / 2 / 4;
+    padding-bottom: 10rem;
+    max-width: 50rem;
+    margin-top: -3rem;
+    width: calc(100vw - 2rem);
+    z-index: 2;
+  }
+}
 
 .sections_about .content_about ul li{
   list-style-type: square;
@@ -395,25 +631,40 @@ button {
   max-height: 90vh;
 }
 
-.hero .hero_text_content{
-  grid-area: 3 / 4 / -1 / 8;
-  z-index: 4;
-/*  color: #274042; */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  align-self: center;
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .container .sections_landing .hero{
+    min-height: 60vh;
+  }
 }
 
-/* iphone media query */
-/*
 .hero .hero_text_content{
   grid-area: 5 / 4 / 8 / 12;
   z-index: 4;
   padding-top: 0rem;
   padding-bottom: 5rem;
   padding-left: 0rem;
-} */
+}
+
+/* desktop media query */
+@media (min-width: 700px){
+  .hero .hero_text_content{
+    grid-area: 3 / 4 / -1 / 8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    align-self: center;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .hero .hero_text_content {
+    grid-area: 4 / 4 / -1 / 13;
+  }
+}
 
 .hero_text {
   margin: 0 0 1rem 0;
@@ -437,52 +688,70 @@ button {
 }
 
 .hero .para1{
-  transform: skew(-15deg) translate(0vw);
-  background-color: #EF9179;
-  grid-area: 1 / 5 / 6 / 11;
-  z-index: 1;
-}
-
-/* iphone query */
-/*.hero .para1{
   transform: skew(-15deg) translate(14vw);
   background-color: #EF9179;
   grid-area: 1 / 5 / 8 / 14;
   z-index: 1;
-}*/
-
-.hero .para2{
-  transform: skew(-15deg) translate(-3vw);
-  background-color: #558B91;
-  grid-area: 2 / 4 / 7 / 10;
-  z-index: 2;
-  /* align-self: end; */
 }
 
-/* iohone media query */
-/*.hero .para2{
+@media (min-width: 700px){
+  .hero .para1{
+    transform: skew(-15deg) translate(0vw);
+    grid-area: 1 / 5 / 6 / 11;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .hero .para1 {
+    grid-area: 1 / 5 / 8 / 14;
+  }
+}
+
+.hero .para2{
+  background-color: #558B91;
   transform: skew(-15deg) translate(0vw);
   grid-area: 3 / 4 / 8 / 13;
   z-index: 2;
-}*/
-
-.hero .para3{
-  transform: skew(-15deg) translate(-4vw);
-  background-color: #F7D1AC;
-  grid-area: 3 / 3 / 8 / 9;
-  z-index: 3;
-  margin: 3rem 1rem 1rem 1rem;
-  /* align-self: end; */
 }
 
-/*iphone media query*/
-/*
+@media (min-width: 700px){
+  .hero .para2{
+    transform: skew(-15deg) translate(-3vw);
+    grid-area: 2 / 4 / 7 / 10;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .hero .para2{
+  grid-area: 3 / 1 / 7 / 14;
+  }
+}
+
 .hero .para3{
   transform: skew(-15deg) translate(-4vw);
   background-color: #F7D1AC;
   grid-area: 4 / 2 / 7 / 12;
   margin: 3rem 1rem 1rem 1rem;
-}*/
+  z-index: 3;
+}
+
+@media (min-width: 700px){
+  .hero .para3{
+    grid-area: 3 / 3 / 8 / 9;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .hero .para3{
+    grid-area: 4 / 3 / 8 / 12;
+  }
+}
 
 /*----------------------LANDING PAGE - featured work--------------------------*/
 
@@ -491,60 +760,50 @@ button {
   grid-area: 2 / 1 / 2 / 5;
 }
 
-.container .sections_landing .featured_work{
+.container .sections_landing .featured_work {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 20vh 1fr 20vh;
-  max-width:1000px;
-  margin: auto;
-}
-
-/* iphone media query */
-/*
-.container .sections_landing .featured_work{
   grid-template-columns: 1fr;
   grid-template-rows: 10vh 1fr 1fr 10vh;
   max-width:350px;
 }
-*/
+
+@media (min-width: 700px) {
+  .container .sections_landing .featured_work{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 1fr 20vh;
+    max-width:1000px;
+    margin: auto;
+  }
+}
 
 .container .sections_landing .featured_work .featured_work_content {
-  grid-area: 2 / 2 / 2 / 2;
+  grid-row: 3;
+  padding: 3rem;
   justify-self: center;
   align-self: center;
 }
 
-/*iphone query
-.container .sections_landing .featured_work .featured_work_content {
-  grid-row: 3;
-  padding: 3rem;
-}*/
+@media (min-width: 700px){
+  .container .sections_landing .featured_work .featured_work_content {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+}
 
 .featured_work .featured{
   grid-area: 1 / 1 / 1 / 3;
   align-self: center;
   justify-self: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: #F1F8F9;
   letter-spacing: .4rem;
 }
 
-/* iphone query */
-/*
-.featured_work .featured{
-  font-size: 1.5rem;
+@media (min-width: 700px){
+  .featured_work .featured{
+    font-size: 2rem;
+  }
 }
-*/
-
-/* iphone query */
-/*
-.featured_work_content h6 {
-  font-size: 1.5rem;
-} */
-
-
-
 
 .case_study {
   background-color: #F7B05B;
@@ -571,29 +830,33 @@ button {
   align-self: center;
   z-index: 2;
   transform: skew(0deg) translate(2vw);
-  height: 40rem;
-}
-
-/* iphone media query
-.featured_work .featured_img {
   height: 27rem;
-}*/
-
-.featured_work .para4 {
-  transform: skew(-15deg) translate(8vw);
-  background-color: #F7D1AC;
-  height: 40rem;
-  width: 55%;
-  grid-area: 2 / 1 / 2 / 1;
-  align-self: center;
 }
 
-/* iphone media query
+@media (min-width: 700px) {
+  .featured_work .featured_img {
+    height: 40rem;
+  }
+}
+
 .featured_work .para4 {
   transform: skew(-15deg) translate(16vw);
   height: 29rem;
   grid-row: 2;
+  width: 55%;
+  background-color: #F7D1AC;
+  align-self: center;
 }
+
+@media (min-width: 700px){
+  .featured_work .para4 {
+    transform: skew(-15deg) translate(8vw);
+    height: 40rem;
+    grid-area: 2 / 1 / 2 / 1;
+  }
+}
+
+
 
 /*---------------------- LANDING PAGE -- About Me --------------------------*/
 /*-------------------------------------------------------------------------*/
@@ -605,49 +868,46 @@ button {
 
 .container .sections_landing .about_me{
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 20vh auto 20vh;
-  max-width: 1000px;
-  margin: auto;
-}
-
-/*iphone query */
-/*
-.container .sections_landing .about_me{
   grid-template-columns: 1fr;
   grid-template-rows: 10vh 1fr 1fr 10vh;
   max-width: 350px;
-}
-*/
-
-.container .sections_landing .about_me .about_me_content{
-  grid-area: 2 / 2 / 2 / 7;
-  align-self: center;
+  margin: auto;
 }
 
-/*iphone query*/
-/*
+@media (min-width: 700px){
+  .container .sections_landing .about_me{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20vh auto 20vh;
+    max-width: 1000px;
+  }
+}
+
 .container .sections_landing .about_me .about_me_content{
   grid-area: 3 / 1;
   padding: 3rem;
-}
-*/
-
-.about_me .jordan_img {
-  grid-area: 2 / 8 / 2 / 12;
-  /*height: 100%;*/
-  width: 100%;
+  align-self: center;
 }
 
-/*iphone query */
-/*
+@media (min-width: 700px){
+  .container .sections_landing .about_me .about_me_content{
+    grid-area: 2 / 2 / 2 / 7;
+  }
+}
+
 .about_me .jordan_img {
   grid-area: 2 / 1;
   width: 20rem;
   justify-self: center;
   align-self: center;
 }
-*/
+
+@media (min-width: 700px){
+  .about_me .jordan_img {
+    grid-area: 2 / 8 / 2 / 12;
+    /*height: 100%;*/
+    width: 100%;
+  }
+}
 
 .about_me_btn {
   background-color: #F7B05B;
