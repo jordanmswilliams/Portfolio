@@ -1,42 +1,23 @@
 .header_distributed{
-  /* Place header on the .container .sections_about 3X4 grid */
   grid-area: 1 / 1 / 1 / 5;
-  /* Create sub-grid for placement of header elements */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  /* Force header to be 'in front' of everything else */
   z-index: 5;
 }
 
 .logo_rose{
-  /* Place header logo on the container .header_distributed 3X5 grid */
   grid-area: 1 / 1 / 1 / 1;
   align-self: start;
   margin: 1rem;
   max-width: 300%;
-  /*height: auto;*/
   width:10rem;
   padding-left: 3rem;
 }
-/*-----write a media query -----*/
-/* iphone style
-.logo_rose{
-  /* Place header logo on the container .header_distributed 3X5 grid */
-  /*
-  margin: none;
-  max-width: 300%;
-  width:6rem;
-  padding-left: 1rem;
-} */
 
 .gallery, .about{
-/*  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color: #274042; */
   max-width: 300%;
   height: auto;
-/*  transform: skew(0deg); */
   align-self: start;
 /*  text-decoration: none; */
   padding: 1rem 3rem 0rem 0rem;
@@ -63,31 +44,18 @@
   text-decoration: underline;
 }
 
-/* iphone media query */
-/*.gallery h6 {
-  font-size: 1.5rem;
-}*/
-
 .about h6{
   color: #274042;
   font-weight: 500;
   text-decoration: underline;
 }
 
-/* iphone media query */
-/*.about h6 {
-  font-size: 1.5rem;
-}*/
-
-
 .gallery{
-  /* Place Gallery link in fourth column of the only row in the header grid */
   grid-area: 1 / 5 / 1 / 5;
   justify-self: right;
 }
 
 .about{
-  /* Place About link in fourth column of the only row in the header grid */
   grid-area: 1 / 6 / 1 / 6;
   justify-self: start;
 }

@@ -215,10 +215,6 @@
 
 @media (max-width: 800px) {
 
-    .footer-distributed{
-      /*  padding: 30px;*/
-    }
-
     .footer-distributed .footer-left,
     .footer-distributed .footer-right{
         float: none;
