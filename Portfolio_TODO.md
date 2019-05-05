@@ -19,6 +19,8 @@ LOW priority
 1. Case study main body uses .section -> change to .section_CS for future (for continuity when adding further pages)
 47. Gallery vs. Portfolio
 49. Might take a swing at fixing the line drawing from the footer in a group session
+50. Seems like the header changes sizes between index, project1 and about.
+
 
 
 

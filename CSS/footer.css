@@ -9,7 +9,14 @@
 .container .footer-distributed{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 5rem 1fr 7rem;
+}
+
+
+@media (min-width: 700px) {
+  .container .footer-distributed{
+    grid-template-rows: 5rem 1fr 5rem;
+  }
 }
 
 .parallelogram {
@@ -37,29 +44,42 @@
 
 .container .footer-company-name{
     font-family: 'Molengo', sans-serif;
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: normal;
-    margin: 10px;
-    grid-area: 3 / 4 / 4 / 7;
+    grid-area: 3 / 3 / 3 / 7;
     justify-self: end;
-    align-self: center;
+    align-self: end;
+    padding: 0;
 }
 
+@media (min-width: 700px){
+  .container .footer-company-name{
+      font-size: 1.4rem;
+      font-weight: normal;
+      margin: 10px;
+      grid-area: 3 / 4 / 4 / 7;
+      justify-self: end;
+      align-self: center;
+  }
+}
+
+
 .footer-distributed .footer-icons{
-    /*margin-top: 40px;*/
-    margin-left: 10px;
-    grid-area: 3 / 1 / 3 / 3;
-    align-self: center;
+    grid-area: 3 / 1 / 3 / 7;
+    justify-self: center;
+    align-self: start;
     z-index: 1;
 }
 
-/* iphone media queries */
-/*
-.footer-distributed .footer-icons{
-    grid-area: 3 / 1 / 3 / 6;
-    justify-self: center;
+/* desktop media queries */
+@media (min-width: 700px) {
+  .footer-distributed .footer-icons{
+      /*margin-top: 40px;*/
+      margin-left: 10px;
+      grid-area: 3 / 1 / 3 / 3;
+      align-self: center;
+  }
 }
-*/
 
 
 .footer-distributed .footer-icons a{
@@ -71,7 +91,7 @@
     border-radius: 2px;
 
     font-size: 20px;
-    color: #F7D1AC;
+    color: #EF9179;
     text-align: center;
     line-height: 35px;
 
@@ -79,20 +99,29 @@
     margin-bottom: 5px;
 }
 
-/* The contact form */
-
-.footer-distributed form{
-    display: inline-block;
-    grid-area: 2 / 4 / 3 / 6;
+@media (min-width: 700px) {
+  .footer-distributed .footer-icons a{
+      color: #F7D1AC;
+  }
 }
 
-/* iphone media query*/
-/*
+
+
 .footer-distributed form{
     grid-area: 1 / 2 / 3 / 7;
     z-index: 1;
     padding-bottom: 4rem;
-}*/
+}
+
+/* The contact form */
+/* desktop media query*/
+@media (min-width: 700px) {
+  .footer-distributed form{
+      display: inline-block;
+      grid-area: 2 / 4 / 3 / 6;
+  }
+}
+
 
 .footer-distributed form input,
 .footer-distributed form textarea{
@@ -135,6 +164,10 @@
     height: 5rem;
 }
 
+.footer-distributed form button{
+    padding: 10px 104px;
+}
+
 .footer-distributed ::-webkit-input-placeholder {
     color:  #5c666b;
 }
@@ -146,13 +179,6 @@
 
 .footer-distributed :-ms-input-placeholder{
     color:  #5c666b;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-@media screen and (min-width: 768px) {
-  .container{
-    width: 70rem;
-  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -176,25 +202,11 @@
     .footer-distributed form textarea{
         width: 250px;
     }
-
-    .footer-distributed form button{
-        padding: 10px 35px;
-    }
-
-/* iphone media query */
-/*
-    .footer-distributed form button{
-        padding: 3px 103px;
-    }
-    */
+}
 
 }
 
 @media (max-width: 800px) {
-
-    .footer-distributed{
-      /*  padding: 30px;*/
-    }
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-right{
