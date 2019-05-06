@@ -709,12 +709,13 @@ section{
   padding: 1rem;
 }
 
+/* RCW
 @media (min-width: 700px) {
   .sections .intro .case_study_hero_img {
     height: 60vh;
     padding: 3rem 1rem 3rem 1rem;
   }
-}
+} */
 
 .sections .intro .ds_logo {
   grid-area: 2 / 1 / 2 / 7;
@@ -723,22 +724,23 @@ section{
   justify-self: center;
 }
 
+/* RCW
 @media (min-width: 700px) {
   .sections .intro .ds_logo {
     padding-top: 15rem;
   }
-}
+} */
 
 .ds_logo img{
   height: 18rem;
   width: 36rem;
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   .ds_logo img{
     width: 18rem;
   }
-}
+} */
 
 .sections .intro .hero_text_content_cs1 {
   grid-area: 4 / 2 / 5 / 6;
@@ -1862,13 +1864,14 @@ figure {
   grid-template-rows: 1fr;
 }
 
+/* RCW
 @media (min-width: 700px) {
   .sections .section_header {
     grid-area: 1 / 1 / 1 / 13;
     height: 10rem;
     grid-template-columns: repeat(3,1fr);
   }
-}
+} */
 
 ul:not(.browser-default) {
  padding-left: 1rem;
@@ -1953,10 +1956,11 @@ ul:not(.browser-default) {
     grid-area: 4 / 2 / 5 / 6;
   }
 
+/* RCW
   .sections .intro .case_study_hero_img {
     height: 30rem;
     padding: 1rem 1rem 1rem 1rem;
-  }
+  } */
 
   /* Sticky Nav Bar Media Query */
 
@@ -2608,6 +2612,288 @@ ul:not(.browser-default) {
 
 
 /* Robin Make Your CSS Changes Here */
+
+.sections .intro .case_study_hero_img{
+  padding: 3rem;
+}
+
+@media (min-width: 768px) {
+  .sections .section_header {
+    grid-area: 1 / 1 / 1 / 13;
+    height: 10rem;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .sections .duration {
+    grid-area: 2 / 1 / 2 / 3;
+    padding: 1rem;
+  }
+  .sections .role {
+    grid-area: 2 / 1 / 2 / 3;
+    padding: 1rem;
+  }
+  .sections .tools {
+    grid-area: 2 / 4 / 2 / 6;
+    padding: 1rem;
+  }
+  .sections .deliverables {
+    grid-area: 2 / 7 / 2 / 13;
+    padding: 1rem;
+  }
+  .sections .problem {
+    grid-area: 3 / 1 / 3 / 4;
+    padding: 1rem;
+  }
+  .sections .solution {
+    grid-area: 3 / 5 / 3 / 9;
+    padding: 1rem;
+  }
+  .sections .comp_ana {
+    grid-area: 4 / 1 / 4 / 4;
+    padding: 1rem;
+  }
+  .daandr .quad_graph {
+    grid-area: 4 / 5 / 4 / 13;
+    padding: 1rem;
+  }
+  .daandr_pinterest {
+    width: 9rem;
+    height: auto;
+  }
+  .daandr_dropbox {
+    width: 9rem;
+    height: auto;
+  }
+  .daandr_box {
+    width: 9rem;
+    height: auto;
+  }
+  .q1 {
+    grid-area: 5 / 1 / 5 / 13;
+    padding: 1rem;
+  }
+  .daandr .cir1 {
+    grid-area: 5 / 1 / 5 / 6;
+    width: 20rem;
+    height: auto;
+  }
+  .daandr .user_research {
+    grid-area: 6 / 1 / 6 / 4;
+    padding: 1rem;
+  }
+  .daandr .usr_resrch_wrapper {
+    grid-area: 6 / 5 / 6 / 13;
+    padding: 1rem;
+  }
+  .quote_wrapper {
+    grid-area: 7 / 1 / 7 / 13;
+    padding: 1rem;
+  }
+  .daandr .cir3 {
+    grid-area: 7 / 1 / 7 / 6;
+    transform: translateX(0vw) translateY(0vh);
+  }
+  .up {
+    grid-area: 8 / 1 / 8 / 5;
+    padding: 1rem;
+  }
+  .black2 {
+    grid-area: 8 / 1 / 8 / 9;
+  }
+  .cir20 {
+    grid-area: 8 / 5 / 8 / 9;
+    width: 20rem;
+    height: 20rem;
+    transform: translateX(0rem) translateY(0rem);
+  }
+  .sections .daandr {
+      grid-template-rows: repeat(9,auto);
+      grid-template-columns: repeat(12,auto);
+  }
+  .carousel.carousel-slider .carousel-item h2 {
+      grid-area: 2 / 3 / 6 / 4;
+      transform: translateX(0rem);
+  }
+  section {
+    padding-bottom: 5rem;
+  }
+  .sections .infrarch {
+    grid-row-gap: 1rem;
+  }
+  .infrarch .user_stories {
+    grid-area: 2 / 1 / 2 / 8;
+    padding: 1rem;
+  }
+  .infrarch .para5 {
+    transform: skew(-15deg) translatex(-6rem);
+    height: 45rem;
+  }
+  .infrarch .user_flows {
+    grid-area: 4 / 1 / 4 / 8;
+    padding: 1rem;
+  }
+  .user_flows_img {
+    padding: 2rem;
+  }
+  .wireframes {
+    grid-area: 6 / 1 / 6 / 6;
+    padding: 1rem;
+  }
+  .q3 {
+    grid-area: 6 / 7 / 6 / 13;
+    padding: 1rem;
+  }
+  .wireframe_1 {
+    grid-area: 7 / 1 / 7 / 6;
+    padding: 1rem;
+  }
+  .wireframe_2 {
+    grid-area: 7 / 7 / 7 / 13;
+    padding: 1rem;
+  }
+  .wireframe_3 {
+    grid-area: 8 / 1 / 8 / 6;
+    padding: 1rem;
+  }
+  .wireframe_4 {
+    grid-area: 8 / 7 / 8 / 13;
+    padding: 1rem;
+  }
+  .wireframe_5 {
+    grid-area: 9 / 1 / 9 / 6;
+    padding: 1rem;
+  }
+  .wireframe_6 {
+    grid-area: 9 / 7 / 9 / 13;
+    padding: 1rem;
+  }
+  figcaption {
+    font-size: 1.2rem;
+  }
+  .sections .branding {
+    grid-row-gap: 1rem;
+  }
+  .branding .summary {
+    grid-area: 2 / 1 / 2 / 6;
+    padding: 1rem;
+  }
+  .branding .q4 {
+    grid-area: 3 / 1 / 3 / 6;
+    padding: 1rem;
+  }
+  .branding .mood_board {
+    grid-area: 2 / 7 / 4 / 12;
+    padding: 1rem;
+    width: 100%;
+  }
+  .branding .color_palette_wrapper {
+    grid-area: 4 / 1 / 4 / 13;
+    padding: 1rem;
+  }
+  .branding .font_selection {
+    grid-area: 5 / 1 / 5 / 6;
+    padding: 1rem;
+  }
+  .branding .q5 {
+    grid-area: 5 / 7 / 5 / 13;
+    padding: 1rem;
+  }
+  .branding .iconography_wrapper {
+    grid-area: 6 / 1 / 6 / 6;
+    padding: 1rem;
+  }
+  .branding .q6 {
+    grid-area: 6 / 7 / 6 / 13;
+    padding: 1rem;
+  }
+  .branding .cir8 {
+    grid-area: 6 / 7 / 6 / 13;
+    width: 35rem;
+    height: 35rem;
+  }
+  .branding .icons_wrapper {
+    grid-area: 7 / 1 / 7 / 13;
+    transform: translateX(-7rem);
+  }
+  .branding .brand_name {
+    grid-area: 8 / 1 / 8 / 6;
+    padding: 1rem;
+  }
+  .branding .q7 {
+    grid-area: 8 / 8 / 8 / 13;
+    align-self: center;
+    padding: 1rem;
+  }
+  .branding .cir9 {
+    grid-area: 8 / 8 / 8 / 11;
+    align-self: center;
+    width: 35rem;
+    height: 35rem;
+  }
+  .branding .logo_r1_wrapper {
+    grid-area: 9 / 1 / 9 / 6;
+    padding: 1rem;
+  }
+  .branding .logo_r2_wrapper {
+    grid-area: 10 / 1 / 10 / 6;
+    padding: 1rem;
+  }
+  .branding .logo_r3_wrapper {
+    grid-area: 12 / 1 / 12 / 6;
+    padding: 1rem;
+  }
+  .branding .logo_r3 {
+    grid-area: 13 / 1 / 13 / 13;
+    grid-column-gap: 1rem;
+    padding: 1rem;
+  }
+  .branding .final_logo {
+    grid-area: 14 / 1 / 14 / 6;
+    padding: 1rem;
+  }
+  .sections .testandproto {
+    grid-row-gap: 5rem;
+  }
+  .testandproto .ut_wrapper_1 {
+    grid-area: 2 / 1 / 2 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+  .testandproto .ut_wrapper_2 {
+    grid-area: 3 / 1 / 3 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+  .testandproto .ut_wrapper_3 {
+    grid-area: 4 / 1 / 4 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+  .testandproto .ut_wrapper_4 {
+    grid-area: 5 / 1 / 5 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+  .testandproto .ut_wrapper_5 {
+    grid-area: 6 / 1 / 6 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+  .sections .lessons {
+    grid-row-gap: 1rem;
+  }
+  .sections .lessons_learned {
+    grid-area: 2 / 1 / 2 / 13;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;
+  }
+}
+
 
 
 /**************************************/
