@@ -190,24 +190,25 @@ button {
   grid-template-rows: repeat(3, auto);
 }
 
-/* @media (min-width: 700px) {
+@media (min-width: 700px) {
   .container .sections_about{
     grid-template-columns: repeat(4, 1fr);
   }
-} */
+}
 
 .container .sections_about .hero_about{
   grid-area: 1/1;
   display: grid;
-  grid-area: 1/1;
   grid-template-rows: repeat(7, 4rem);
-  min-width: 100rem;
-  max-width: 110rem;
+  grid-template-columns: 1fr;
 }
 
 @media (min-width: 700px) {
   .container .sections_about .hero_about{
     grid-area: 1 / 1 / 1 / 5;
+    grid-template-columns: repeat(10,1fr);
+    min-width: 100rem;
+    max-width: 110rem;
   }
 }
 
@@ -233,14 +234,8 @@ button {
 
 /* iphone query */
 .hero_about .para4{
-  /* Robin's Version */
   transform: skew(-15deg) translate(-11vw);
-  /* Jordan's Version */
-  transform: skew(-15deg) translate(-8vw);
-  /* Robin's Version */
   grid-area: 1 / 1 / 8 / 15;
-  /* Jordan's Version */
-  grid-area: 1 / 1 / 8 / 12;
   background-color: #91bdae;
   z-index: 1;
 }
@@ -256,28 +251,24 @@ button {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   .hero_about .para4{
-    grid-area: 1 / 1 / 6 / 9;
+    transform: skew(-15deg) translate(-5vw);
+    grid-area: 1 / 1 / 6 / 7;
   }
 }
 
 .hero_about .jordan_img1 {
-  /* Robin's Version */
-  grid-area: 3 / 9 / -1 / 13;
-  /* Jordan's Version */
   grid-area: 4 / 9 / 4 / 13;
-  /* Robin's Version */
   width: 100%;
-  /* Jordan's Version */
-  width: 107%;
-  max-width: 21rem;
+  max-width: 12rem;
   padding: 1rem;
   z-index: 2;
 }
 
 @media (min-width: 700px) {
   .hero_about .jordan_img1 {
-    grid-area: 2 / 10 / -1 / 13;
+    grid-area: 2 / 14 / -1 / 15;
     width: 100%;
+    max-width: 20rem;
   }
 }
 
@@ -285,23 +276,17 @@ and (max-device-width : 1024px)  {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   .hero_about .jordan_img1 {
-    grid-area: 2 / 7 / -1 / 9;
+    grid-area: 3 / 6 / -1 / 9;
+    max-width: 15rem;
   }
 }
 
 /* -----------------------ABOUT PAGE HERO ---------------------------------*/
 .sections_about .content_about {
-  /* Robin's Version */
-  /*grid-area: 2 / 1 / 2 / 3; */
-  /* Jordan's Version */
   grid-area: 2 / 1;
   justify-self: center;
-
   padding: 5rem;
-  /* Robin's Version */
-  max-width:650px;
-  /* Jordan's Version */
-  max-width: 30rem;
+  max-width: 35rem;
   margin-top: -11rem;
   width: calc(100vw - 2rem);
   z-index: 2;
@@ -311,8 +296,8 @@ and (max-device-width : 1024px)  {
   .sections_about .content_about {
     grid-area: 2 / 2 / 2 / 4;
     padding-bottom: 10rem;
-    max-width: 50rem;
-    margin-top: -3rem;
+    max-width: 70rem;
+    margin-top: -13rem;
   }
 }
 
