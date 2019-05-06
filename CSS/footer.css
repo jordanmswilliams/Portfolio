@@ -181,6 +181,13 @@
     color:  #5c666b;
 }
 
+/* If you don't want the footer to be responsive, remove these media queries */
+/*@media screen and (min-width: 768px) {
+  .container{
+    width: 70rem;
+  }
+}
+*/
 @media screen and (min-width: 1000px) {
   .container{
     width: 100%;

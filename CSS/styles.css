@@ -199,7 +199,7 @@ button {
 .container .sections_about .hero_about{
   grid-area: 1/1;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-area: 1/1;
   grid-template-rows: repeat(7, 4rem);
   min-width: 100rem;
   max-width: 110rem;
@@ -211,11 +211,27 @@ button {
   }
 }
 
+
+/*
+@media (min-width: 700px) {
+  .container .sections_about .hero_about{
+    grid-area: 1 / 1 / 1 / 5;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 4rem);
+    min-width: 100rem;
+    max-width: 110rem;
+    /* min-height: 80vh;
+    max-height: 80vh; */
+/*  }
+}*/
+
 .hero_about .parallelogram {
   height: 100%;
   width: 100%;
 }
 
+/* iphone query */
 .hero_about .para4{
   /* Robin's Version */
   transform: skew(-15deg) translate(-11vw);
@@ -273,6 +289,7 @@ and (max-device-width : 1024px)  {
   }
 }
 
+/* -----------------------ABOUT PAGE HERO ---------------------------------*/
 .sections_about .content_about {
   /* Robin's Version */
   /*grid-area: 2 / 1 / 2 / 3; */
@@ -473,7 +490,7 @@ and (max-device-width : 1024px) {
   grid-area: 2 / 1 / 2 / 5;
 }
 
-.container .sections_landing .featured_work{
+.container .sections_landing .featured_work {
   display: grid;
   /* Robin's Version */
   grid-template-columns: 1fr 1fr;
