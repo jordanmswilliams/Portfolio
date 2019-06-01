@@ -3,6 +3,7 @@ video:https://youtu.be/kmF9FbqRoIw
 Overall
 
 1. Keep working on layout responsiveness.
+  [RW] - Save this for after we've made specific changes requested by J.P.
 
 2. Style header buttons on hover and when on the current page.
     [RW] - Done and pushed to Master.  Jordan needs to make final styling decisions, but mechanisms are in place.
@@ -12,13 +13,15 @@ Home
 1. Align header to the middle of the parallelogram.
 
 2. Button text still a bit too small.
-  [RW] - Done and pushed to Master.  See Styles.CSS / .btn{} t0 make changes.
+  [RW] - Done and pushed to Master.  See Styles.CSS / .btn{} to make changes.
 
 About
 
 1. Make sure all headers are closer in proximity to content that follows.
+  [RW] - Done and pushed to Master.  See Styles.CSS / p{} to make changes but beware that changes made here will apply everywhere p{} is used.
 
 2. Line-height is a bit tight on paragraphs, moving from line-height:1.3to somewhere between 1.5-1.6 could make this more legible.
+  [RW] - Done and pushed to Master.  See Styles.CSS / p{} to make changes but beware that changes made here will apply everywhere p{} is used.
 
 Case Study
 
