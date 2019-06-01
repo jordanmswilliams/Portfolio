@@ -36,6 +36,7 @@ Case Study
 4. Personas need a bit more work. Different dot colors, change the cursor to draggable on hover.
 
 5. User flows cropped
+  [RW] - Fixed and pushed to Master.  
 
 6. Add testing and takeaways before moving to branding.
 

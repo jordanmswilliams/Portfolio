@@ -1050,19 +1050,21 @@ nav ul .active a {
   display: grid;
   grid-template-columns: 34rem 1fr 21rem;
   grid-template-rows: 22rem 6rem 3rem 3rem 1fr 4rem 12rem;
-  /*background-color: #dbf0f6; */
   padding: 4rem;
-}
-
-.carousel-item .container2 .lfield{
-  grid-area: 1 / 1 / 8 / 2;
-  background-color: #dbf0f6;
-  padding: 20rem;
 }
 
 .carousel-item .container2 a{
   grid-area: 1 / 1 / 2 / 2;
   padding: 3rem 3rem;
+}
+
+.carousel-item .container2 h2{
+  grid-area: 2 / 3 / 4 / 4;
+  font-size: 4rem !important;
+  justify-self: end;
+  font-style: italic;
+  line-height: 1 !important;
+  transform: translateX(-9rem);
 }
 
 .carousel-item .container2 h3{
@@ -1075,18 +1077,8 @@ nav ul .active a {
   padding-left: 3rem;
 }
 
-.motivation{
-  grid-area: 4 / 1 / 5 / 2;
-  padding-left: 3rem;
-}
-
 .carousel-item .container2 p{
   grid-area: 5 / 1 / 6 / 2;
-  padding-left: 3rem;
-}
-
-.frustration{
-  grid-area: 6 / 1 / 7 / 2;
   padding-left: 3rem;
 }
 
@@ -1101,13 +1093,14 @@ nav ul .active a {
   padding-left: 1rem;
 }
 
-.carousel-item .container2 h2{
-  grid-area: 2 / 3 / 4 / 4;
-  font-size: 4rem !important;
-  justify-self: end;
-  font-style: italic;
-  line-height: 1 !important;
-  transform: translateX(-9rem);
+.motivation{
+  grid-area: 4 / 1 / 5 / 2;
+  padding-left: 3rem;
+}
+
+.frustration{
+  grid-area: 6 / 1 / 7 / 2;
+  padding-left: 3rem;
 }
 
 .cir20{
@@ -2676,7 +2669,7 @@ ul:not(.browser-default) {
       grid-template-columns: repeat(12,auto);
   }
   .carousel.carousel-slider .carousel-item h2 {
-      grid-area: 2 / 3 / 6 / 4;
+      grid-area: 2 / 4 / 8 / 8;
       transform: translateX(0rem);
   }
   section {
