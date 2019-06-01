@@ -120,6 +120,10 @@ li {
   color: #274042;
 }
 
+nav ul li.active {
+    background-color: rgba(0,0,0,.2);
+}
+
 @media (min-width: 700px){
   p{
     font-size: 1.6rem;

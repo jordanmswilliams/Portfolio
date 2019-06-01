@@ -26,6 +26,7 @@ About
 Case Study
 
 1. Might not have enough contrast on case study menu when active.
+  [RW] - Done and pushed to Master. See Styles.CSS / nav ul li.active {}
 
 2. Same as with about, line-height is a bit tight on paragraphs, moving from line-height:1.3 to somewhere between 1.5-1.6 could make this more legible.
 
