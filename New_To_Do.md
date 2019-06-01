@@ -5,12 +5,14 @@ Overall
 1. Keep working on layout responsiveness.
 
 2. Style header buttons on hover and when on the current page.
+    [RW] - Done and pushed to Master.  Jordan needs to make final styling decisions, but mechanisms are in place.
 
 Home
 
 1. Align header to the middle of the parallelogram.
 
 2. Button text still a bit too small.
+  [RW] - Done and pushed to Master.  See Styles.CSS / .btn{} t0 make changes.
 
 About
 

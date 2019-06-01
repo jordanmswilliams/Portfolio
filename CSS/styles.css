@@ -156,6 +156,10 @@ button {
   color: #274042;
 }
 
+.btn{
+  font-size: 1.5rem;
+}
+
 .circle {
   background: #F7D1AC;
   opacity: .3;
