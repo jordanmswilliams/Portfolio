@@ -38,15 +38,14 @@ body {
 
 p {
   font-size: 1.2rem;
-  line-height: 1.3;
-  margin-top: 1rem;
+  line-height: 1.6;
   padding-bottom: 1rem;
 }
 
 h1 {
   font-size: 4rem;
   line-height: 1;
-  padding: 1rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 h2 {
@@ -121,6 +120,10 @@ li {
   color: #274042;
 }
 
+nav ul li.active {
+    background-color: rgba(0,0,0,.2);
+}
+
 @media (min-width: 700px){
   p{
     font-size: 1.6rem;
@@ -154,6 +157,10 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #274042;
+}
+
+.btn{
+  font-size: 1.5rem;
 }
 
 .circle {

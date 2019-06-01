@@ -19,35 +19,28 @@
   max-width: 300%;
   height: auto;
   align-self: start;
-/*  text-decoration: none; */
   padding: 1rem 3rem 0rem 0rem;
+}
+
+a {
+  font-size: 2rem;
+  color: #274042;
+  padding: 1rem 0rem;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: red;
+  transform: skew(-15deg);
 }
 
 @media (min-width: 700px){
   .gallery, .about{
-  /*  font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: #274042; */
     max-width: 300%;
     height: auto;
-  /*  transform: skew(0deg); */
     align-self: start;
-  /*  text-decoration: none; */
     padding: 1rem 5rem 0rem 0rem;
   }
-}
-
-
-.gallery h6 {
-  color: #274042;
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-.about h6{
-  color: #274042;
-  font-weight: 500;
-  text-decoration: underline;
 }
 
 .gallery{
@@ -58,4 +51,8 @@
 .about{
   grid-area: 1 / 6 / 1 / 6;
   justify-self: start;
+}
+
+.active{
+  color: #CF6AE3;
 }
