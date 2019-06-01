@@ -29,6 +29,7 @@ Case Study
   [RW] - Done and pushed to Master. See Styles.CSS / nav ul li.active {}
 
 2. Same as with about, line-height is a bit tight on paragraphs, moving from line-height:1.3 to somewhere between 1.5-1.6 could make this more legible.
+  [RW] - This was fixed with the same change for the About page. I noticed a formatting problem with the 'User Research' paragraph and fixed it.
 
 3. Polish Competitive chart a bit more
 
