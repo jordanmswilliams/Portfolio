@@ -8,11 +8,7 @@
 
 .logo_rose{
   grid-area: 1 / 1 / 1 / 1;
-  align-self: start;
-  margin: 1rem;
-  max-width: 300%;
-  width:10rem;
-  padding-left: 3rem;
+  padding: 1rem;
 }
 
 .gallery, .about{
