@@ -30,7 +30,7 @@ a {
 }
 
 a:hover, a:active {
-  color: red;
+  color: #F7D1AC;
   transform: skew(-15deg);
 }
 
@@ -54,5 +54,9 @@ a:hover, a:active {
 }
 
 .active{
-  color: #CF6AE3;
+  /* EF9179 para1
+  558B91 para2
+  F7D1AC para3  */
+
+  color: #6600cc;
 }

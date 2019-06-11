@@ -328,8 +328,8 @@ and (max-device-width : 1024px)  {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(7, 1fr);
-  min-height: 75vh;
-  max-height: 90vh;
+/*  min-height: 75vh;
+  max-height: 90vh; */
 }
 
 @media only screen
@@ -383,68 +383,38 @@ and (max-device-width : 1024px) {
   height: 5rem;
 }
 
+/* Index Page */
 .hero .parallelogram {
+  transform: skew(-15deg) translate(0vw);
   height: 100%;
   width: 100%;
 }
 
 .hero .para1{
-  transform: skew(-15deg) translate(14vw);
+  grid-area: 1 / 5 / 6 / 11;
   background-color: #EF9179;
-  grid-area: 1 / 3 / 8 / 10;
   z-index: 1;
-  /*animation: ease-in 3s forwards*/
-}
-}
-
-@media (min-width: 700px){
-  .hero .para1{
-    transform: skew(-15deg) translate(0vw);
-    grid-area: 1 / 5 / 6 / 11;
-  }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-  .hero .para1 {
-    grid-area: 1 / 5 / 8 / 14;
-  }
 }
 
 .hero .para2{
-  grid-area: 3 / 4 / 8 / 13;
-  transform: skew(-15deg) translate(0vw);
+  grid-area: 2 / 4 / 7 / 10;
   background-color: #558B91;
   z-index: 2;
-  /*animation: ease-in 3s forwards*/
-}
-
-@media (min-width: 700px){
-  .hero .para2{
-    transform: skew(-15deg) translate(-3vw);
-    grid-area: 2 / 4 / 7 / 10;
-  }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-  .hero .para2{
-  grid-area: 3 / 1 / 7 / 14;
-  }
 }
 
 .hero .para3{
-  grid-area: 4 / 2 / 7 / 12;
-  transform: skew(-15deg) translate(-4vw);
+  grid-area: 3 / 3 / 8 / 9;
   background-color: #F7D1AC;
-  margin: 3rem 1rem 1rem 1rem;
   z-index: 3;
-  /*animation: ease-in 3s forwards*/
 }
 
-@media (min-width: 700px){
+/* @media (min-width: 700px){
+  .hero .para1{
+    grid-area: 1 / 5 / 6 / 11;
+  }
+  .hero .para2{
+    grid-area: 2 / 4 / 7 / 10;
+  }
   .hero .para3{
     grid-area: 3 / 3 / 8 / 9;
   }
@@ -453,10 +423,18 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-  .hero .para3{
-    grid-area: 4 / 3 / 8 / 12;
+  .hero .para1 {
+    grid-area: 1 / 5 / 6 / 11;
   }
-}
+  .hero .para2{
+  grid-area: 2 / 4 / 7 / 10;
+  }
+  .hero .para3{
+    grid-area: 3 / 3 / 8 / 9;
+  }
+} */
+
+/* End optimiztion */
 
 .container .sections_landing .featured_work_wrapper {
   background-color: #6AADB5;
