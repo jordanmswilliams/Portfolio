@@ -15,7 +15,7 @@
   max-width: 300%;
   height: auto;
   align-self: start;
-  padding: 1rem 3rem 0rem 0rem;
+  padding: 2rem 3rem 0rem 0rem;
 }
 
 a {
@@ -35,7 +35,7 @@ a:hover, a:active {
     max-width: 300%;
     height: auto;
     align-self: start;
-    padding: 1rem 5rem 0rem 0rem;
+    padding: 2rem 5rem 0rem 0rem;
   }
 }
 
