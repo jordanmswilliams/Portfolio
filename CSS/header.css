@@ -1,13 +1,13 @@
 .header_distributed{
   grid-area: 1 / 1 / 1 / 5;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(1, 1fr);
   z-index: 5;
 }
 
 .logo_rose{
-  grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 2 / 1 / 2;
   padding: 1rem;
 }
 
@@ -40,12 +40,12 @@ a:hover, a:active {
 }
 
 .gallery{
-  grid-area: 1 / 5 / 1 / 5;
+  grid-area: 1 / 9 / 1 / 9;
   justify-self: right;
 }
 
 .about{
-  grid-area: 1 / 6 / 1 / 6;
+  grid-area: 1 / 10 / 1 / 10;
   justify-self: start;
 }
 
