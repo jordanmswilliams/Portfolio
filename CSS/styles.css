@@ -349,6 +349,14 @@ and (max-device-width : 1024px)  {
   align-self: center;
 }
 
+@media only screen
+and (min-device-width : 1400px){
+  .hero .hero_text_content{
+    width: 83%;
+    transform: skew(0deg) translateX(-9vw);
+  }
+}
+
 @media (min-width: 700px){
   .hero .hero_text_content{
     grid-area: 3 / 4 / -1 / 8;
@@ -391,19 +399,19 @@ and (max-device-width : 1024px) {
 }
 
 .hero .para1{
-  grid-area: 1 / 5 / 6 / 12;
+  grid-area: 1 / 4 / 6 / 12;
   background-color: #EF9179;
   z-index: 1;
 }
 
 .hero .para2{
-  grid-area: 2 / 4 / 7 / 10;
+  grid-area: 2 / 3 / 7 / 11;
   background-color: #558B91;
   z-index: 2;
 }
 
 .hero .para3{
-  grid-area: 3 / 2 / 8 / 8;
+  grid-area: 3 / 2 / 8 / 10;
   background-color: #F7D1AC;
   z-index: 3;
 }
