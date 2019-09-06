@@ -357,7 +357,7 @@ and (min-device-width : 1400px){
 
 @media (min-width: 700px){
   .hero .hero_text_content{
-    grid-area: 4 / 4 / 7 / 10;
+    grid-area: 4 / 5 / 7 / 10;
     padding: 1rem 1rem 1rem 1rem;
     align-self: center;
   }
