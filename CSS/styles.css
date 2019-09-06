@@ -505,8 +505,8 @@ and (max-device-width : 1024px) {
   color: #274042;
   width: 20rem;
   justify-self: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  /*padding-left: 5rem;
+  padding-right: 5rem;*/
   z-index: 20;
   font-family: 'Montserrat', sans-serif;
 }
