@@ -4086,7 +4086,7 @@ ul:not(.browser-default) {
     grid-row-gap: 2rem;
   }
 
-  .lessons_learned .conclusion_header {
+  .lessons .conclusion_header {
     grid-area: 2 / 3 / 2 / 6;
   }
 
