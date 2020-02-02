@@ -899,6 +899,36 @@ nav ul .active a {
   padding: 1rem 0 1rem 1rem;
 }
 
+.daandr_massfiscal {
+  width: auto;
+  height: 13vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.daandr_progressivemass {
+  width: auto;
+  height: 13vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.daandr_publiccitizen {
+  width: auto;
+  height: 13vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.daandr_sunlightfound {
+  width: auto;
+  height: 13vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.daandr_commoncause {
+  width: auto;
+  height: 13vh;
+  padding: 1rem 0 1rem 1rem;
+}
+
 .daandr .quad_graph {
   grid-area: 4 / 8 / 4 / 11;
   align-self: center;
