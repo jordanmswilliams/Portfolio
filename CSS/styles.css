@@ -130,7 +130,7 @@ nav ul li.active {
     font-size: 1.6rem;
   }
   h1 {
-    font-size: 8rem;
+    font-size: 7rem;
   }
   h2 {
     font-size: 5rem;
@@ -348,7 +348,7 @@ and (max-device-width : 1024px)  {
   align-self: center;
 }
 
-.hero_text_content .span.animated {
+.hero_text_content div.animated {
   animation-duration: 10s;
 }
 
