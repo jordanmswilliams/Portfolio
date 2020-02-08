@@ -764,7 +764,7 @@ section{
   height: 7rem;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
 }
 
@@ -872,7 +872,7 @@ nav ul .active a {
 
 
 .sections .tools {
-  grid-area: 2 / 6 / 2 / 8;
+  grid-area: 1 / 6 / 1 / 8;
 }
 
 .sections .problem {
@@ -3106,7 +3106,7 @@ ul:not(.browser-default) {
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: auto auto auto;
-    padding-bottom: 3rem;
+    padding: 5rem 0rem 5rem 0rem;
   }
 
   .sections .intro .case_study_hero_img {
@@ -3161,7 +3161,7 @@ ul:not(.browser-default) {
 
   #stickyNavV2{
     grid-area: 2 / 1 / 2 / 5;
-    background-color: #F2F8F9;
+    background-color: #6AADB5;
 
     font-family: 'Montserrat', sans-serif;
 
@@ -3170,7 +3170,7 @@ ul:not(.browser-default) {
     height: 7rem;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
   }
 
@@ -3213,7 +3213,7 @@ ul:not(.browser-default) {
 
   nav ul li a:hover {
     color: #F38A8A;
-    background: #ddd;
+    /*background: #ddd;*/
   /*  color: black; */
 
   }
@@ -3254,12 +3254,49 @@ ul:not(.browser-default) {
     padding-top: 60px;
   }
 
+    /*---------- PROJECT OVERVIEW --------------------------------------*/
+    .sections .projover{
+      grid-area: 3 / 1 / 3 / 13;
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-rows: auto repeat(3,auto);
+      grid-row-gap: 10rem;
+      /*padding-top: 10rem;*/
+    }
+
+    .sections .deliverables {
+      grid-area: 2 / 9 / 2 / 12;
+    }
+
+    .sections .duration {
+      grid-area: 2 / 3 / 2 / 5;
+    }
+
+    .sections .role {
+      grid-area: 2 / 3 / 2 / 5;
+      margin-top: 11rem;
+    }
+
+    .sections .tools {
+      grid-area: 2 / 6 / 2 / 8;
+    }
+
+    .sections .problem {
+      grid-area: 3 / 3 / 3 / 6;
+    }
+
+    .sections .solution {
+      grid-area: 3 / 8 / 3 / 11;
+    }
+
+
   /*---------- DISCOVERY & RESEARCH --------------------------------------*/
+
   .sections .daandr{
-    grid-area: 3 / 1 / 3 / 13;
+    grid-area: 4 / 1 / 4 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: auto repeat(7,auto);
+    grid-template-rows: auto repeat(6,auto);
     grid-row-gap: 10rem;
   }
 
@@ -3267,33 +3304,8 @@ ul:not(.browser-default) {
     padding: 0 0 2rem 0;
   }
 
-  .sections .deliverables {
-    grid-area: 2 / 9 / 2 / 12;
-  }
-
-  .sections .duration {
-    grid-area: 2 / 3 / 2 / 5;
-  }
-
-  .sections .role {
-    grid-area: 2 / 3 / 2 / 5;
-    margin-top: 11rem;
-  }
-
-  .sections .tools {
-    grid-area: 2 / 6 / 2 / 8;
-  }
-
-  .sections .problem {
-    grid-area: 3 / 3 / 3 / 6;
-  }
-
-  .sections .solution {
-    grid-area: 3 / 8 / 3 / 11;
-  }
-
   .sections .comp_ana {
-    grid-area: 4 / 3 / 4 / 6;
+    grid-area: 2 / 3 / 2 / 6;
   }
 
   .daandr_pinterest {
@@ -3315,7 +3327,7 @@ ul:not(.browser-default) {
   }
 
   .daandr .quad_graph {
-    grid-area: 4 / 8 / 4 / 11;
+    grid-area: 2 / 8 / 2 / 11;
     align-self: center;
     width: 40rem;
   }
@@ -3324,6 +3336,7 @@ ul:not(.browser-default) {
     grid-area: 5 / 8 / 5 / 11;
   } */
 
+/*
   .daandr .cir1{
     grid-area: 4 / 9 / 6 / 12;
     align-self: end;
@@ -3331,23 +3344,24 @@ ul:not(.browser-default) {
     z-index: 1;
     width: 50rem;
     height: 50rem;
-  }
+  }*/
 
   /*.daandr*/ .quotes {
     /*grid-area: 5 / 8 / 5 / 11;*/
     align-self: start;
-    justify-self: start;
+    justify-self: center;
     font-style: italic;
     z-index: 2;
     line-height: 4.5rem;
+    max-width: 70rem;
   }
 
   .q1 {
-    grid-area: 5 / 8 / 5 / 11;
+    grid-area: 3 / 1 / 3 / 13;
   }
 
   .daandr .user_research {
-    grid-area: 6 / 3 / 6 / 6;
+    grid-area: 4 / 3 / 4 / 6;
     /*display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 2rem;
@@ -3356,7 +3370,7 @@ ul:not(.browser-default) {
   }
 
   .daandr .usr_resrch_wrapper {
-    grid-area: 6 / 8 / 6 / 11;
+    grid-area: 4 / 8 / 4 / 11;
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 2rem;
@@ -3500,14 +3514,19 @@ ul:not(.browser-default) {
   }
 
   .quote_wrapper{
-    grid-area: 7 / 3 / 7 / 6;
+    grid-area: 5 / 1 / 5 / 13;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr;
     font-style: italic;
     z-index: 2;
+    justify-self: center;
+    max-width: 80rem;
+    text-align: center;
+    grid-row-gap: 1rem;
   }
 
+/*
   .daandr .cir3{
     grid-area: 7 / 1 / 7 / 6;
     align-self: end;
@@ -3515,14 +3534,14 @@ ul:not(.browser-default) {
     width: 50rem;
     height: 50rem;
     transform: translateX(3vw) translateY(-16vh)
-  }
+  }*/
 
   .daandr .user_persona_wrapper {
-    grid-area: 8 / 3 / 8 / 6;
+    grid-area: 6 / 3 / 6 / 6;
   }
 
   .up {
-    grid-area: 8 / 3 / 8 / 7;
+    grid-area: 6 / 3 / 6 / 7;
   }
 
   .up_titles {
@@ -3532,7 +3551,7 @@ ul:not(.browser-default) {
   /* Carousel */
 
   .black2{
-    grid-area: 8 / 3 / 8 / 11;
+    grid-area: 6 / 3 / 6 / 11;
     margin-top: 5rem;
   }
 
@@ -3613,6 +3632,7 @@ ul:not(.browser-default) {
     transform: translateX(-9rem);
   }
 
+/*
   .cir20{
     grid-area: 8 / 8 / 8 / 13;
     justify-self: end;
@@ -3620,7 +3640,7 @@ ul:not(.browser-default) {
     height: 70rem;
     align-self: center;
     transform: translateX(12rem);
-  }
+  }*/
 
   .carousel .indicators .indicator-item{
     background-color: #a3c2c5;
@@ -3660,7 +3680,7 @@ ul:not(.browser-default) {
   /*--------------INFORMATION ARCHITECTURE ----------*/
 
   .sections .infrarch{
-    grid-area: 4 / 1 / 4 / 13;
+    grid-area: 5 / 1 / 5 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(8,auto);
@@ -3712,39 +3732,41 @@ ul:not(.browser-default) {
   }
 
   .user_flows_img {
-    grid-area: 5 / 1 / 5 / 13;
+    grid-area: 5 / 2 / 5 / 12;
     max-width: 100%;
     max-height: none;
   }
 
   .q3 {
-    grid-area: 6 / 8 / 6 / 11;
+    grid-area: 7 / 1 / 7 / 13;
     z-index: 2;
   }
-
+/*
   .cir5 {
     grid-area: 6 / 8 / 6 / 13;
     width: 50rem;
     height: 50rem;
-  }
+  }*/
 
   .wireframes_1 {
     grid-area: 6 / 3 / 6 / 6;
   }
 
-  .q3 {
+  .wireframes_2 {
     grid-area: 6 / 8 / 6 / 11;
-    z-index: 2;
+    padding-top: 5rem;
   }
 
+
+/*
   .cir5 {
     grid-area: 6 / 8 / 6 / 13;
     width: 50rem;
     height: 50rem;
-  }
+  }*/
 
   .wireframe_1_ds {
-    grid-area: 7 / 3 / 7 / 5;
+    grid-area: 8 / 3 / 8 / 5;
   }
 
   .wireframe_1_ds img {
@@ -3752,7 +3774,7 @@ ul:not(.browser-default) {
   }
 
   .wireframe_2_ds {
-    grid-area: 7 / 6 / 7 / 8;
+    grid-area: 8 / 6 / 8 / 8;
   }
 
   .wireframe_2_ds img {
@@ -3760,7 +3782,7 @@ ul:not(.browser-default) {
   }
 
   .wireframe_3_ds {
-    grid-area: 7 / 9 / 7 / 11;
+    grid-area: 8 / 9 / 8 / 11;
   }
 
   .wireframe_3_ds img {
@@ -3768,7 +3790,7 @@ ul:not(.browser-default) {
   }
 
   .wireframe_4_ds {
-    grid-area: 8 / 3 / 8 / 5;
+    grid-area: 9 / 3 / 9 / 5;
   }
 
   .wireframe_4_ds img {
@@ -3776,7 +3798,7 @@ ul:not(.browser-default) {
   }
 
   .wireframe_5_ds {
-    grid-area: 8 / 6 / 8 / 8;
+    grid-area: 9 / 6 / 9 / 8;
   }
 
   .wireframe_5_ds img {
@@ -3784,7 +3806,7 @@ ul:not(.browser-default) {
   }
 
   .wireframe_6_ds {
-    grid-area: 8 / 9 / 8 / 11;
+    grid-area: 9 / 9 / 9 / 11;
     /*padding-bottom: 10rem;*/
   }
 
@@ -4051,7 +4073,7 @@ ul:not(.browser-default) {
   }
 
   .sections .branding{
-    grid-area: 5 / 1 / 5 / 13;
+    grid-area: 6 / 1 / 6 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto repeat(13,auto);
@@ -4495,7 +4517,7 @@ ul:not(.browser-default) {
   /*-------------------------TESTING & PROTOTYPING -----------------------*/
 
   .sections .testandproto{
-    grid-area: 6 / 1 / 6 / 13;
+    grid-area: 7 / 1 / 7 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto repeat(5,auto);
@@ -4667,7 +4689,7 @@ ul:not(.browser-default) {
   }
 
   .sections .lessons{
-    grid-area: 7 / 1 / 7 / 13;
+    grid-area: 8 / 1 / 8 / 13;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto auto auto;
