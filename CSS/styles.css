@@ -1076,7 +1076,7 @@ nav ul .active a {
 }
 
 .quote_wrapper{
-  grid-area: 7 / 3 / 7 / 6;
+  /*grid-area: 7 / 3 / 7 / 6;*/
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
@@ -2852,7 +2852,7 @@ ul:not(.browser-default) {
     padding: 1rem;
   }
   .quote_wrapper {
-    grid-area: 7 / 1 / 7 / 13;
+    /*grid-area: 7 / 1 / 7 / 13;*/
     padding: 1rem;
   }
   .daandr .cir3 {
@@ -3640,7 +3640,7 @@ ul:not(.browser-default) {
   }*/
 
   /*.daandr*/ .quotes {
-    /*grid-area: 5 / 8 / 5 / 11;*/
+    grid-area: 2 / 1;
     align-self: start;
     justify-self: center;
     font-style: italic;
@@ -3649,14 +3649,15 @@ ul:not(.browser-default) {
     max-width: 70rem;
   }
 
+
   .q1 {
     grid-area: 4 / 1 / 4 / 13;
-    padding-top: 8rem;
   }
 
   .key_take {
-    grid-area: 4 / 4 / 4 / 13;
+    grid-area: 1 / 1;
     align-self: start;
+    justify-self: left;
   }
 
   .daandr .user_research {
@@ -3676,9 +3677,51 @@ ul:not(.browser-default) {
     grid-area: 5 / 8 / 5 / 12;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-row-gap: 1rem;
     padding: 7rem 0rem 0rem 0rem;
+    max-height: 50vh;
+  }
+
+  .daandr .usr_resrch_quot_wrapper {
+    grid-area: 6 / 3 / 6 / 12;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    /*padding-top: 5rem;*/
+  }
+
+  .usr_resrch_quot_wrapper .smile {
+    align-self: center;
+    background-color: #F7D1AC;
+    color: #558B91;
+    border-radius: 50%;
+  }
+
+
+
+  .daandr .usr_resrch_quot_wrapper .quot2 {
+    padding: 1rem;
+  }
+
+  .usr_resrch_quot_wrapper .usr_resrch_quot1 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column: 1;
+    padding-top: 2rem;
+  }
+
+  .usr_resrch_quot1 .quot1_title {
+    grid-area: 1 / 1 / 1 / 3;
+  }
+
+  .usr_resrch_quot2 .quot1_title {
+    grid-area: 1 / 1 / 1 / 3;
+  }
+
+  .usr_resrch_quot_wrapper .usr_resrch_quot2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 2rem;
   }
 
   .daandr .usr_resrch_wrapper .usr_resrch_nmbrs_1{
@@ -3817,9 +3860,9 @@ ul:not(.browser-default) {
   }
 
   .quote_wrapper{
-    grid-area: 6 / 1 / 6 / 13;
+    /*grid-area: 7 / 1 / 7 / 13;*/
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     font-style: italic;
     z-index: 2;
@@ -3844,7 +3887,7 @@ ul:not(.browser-default) {
   }
 
   .up {
-    grid-area: 7 / 3 / 7 / 7;
+    grid-area: 8 / 3 / 8 / 7;
   }
 
   .up_titles {
@@ -3854,7 +3897,7 @@ ul:not(.browser-default) {
   /* Carousel */
 
   .black2{
-    grid-area: 7 / 3 / 7 / 11;
+    grid-area: 8 / 3 / 8 / 11;
     margin-top: 5rem;
   }
 
@@ -3873,10 +3916,11 @@ ul:not(.browser-default) {
 
   .carousel-item .container2{
     display: grid;
-    grid-template-columns: 34rem 1fr 21rem;
-    grid-template-rows: 22rem 6rem 3rem 3rem 1fr 4rem 12rem;
-    /*background-color: #dbf0f6; */
+    grid-template-columns: 34rem 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+    background-color: #99CFD6;
     padding: 4rem;
+    margin-top: 4rem;
   }
 
   .carousel-item .container2 .lfield{
@@ -3902,22 +3946,47 @@ ul:not(.browser-default) {
 
   .motivation{
     grid-area: 4 / 1 / 5 / 2;
-    padding-left: 3rem;
+    padding: 2rem 3rem 0rem 3rem;
   }
 
   .carousel-item .container2 p{
-    grid-area: 5 / 1 / 6 / 2;
+    grid-area: 5 / 1 / 5 / 2;
     padding-left: 3rem;
+  }
+
+  .david_img {
+    margin-left: 3rem;
   }
 
   .frustration{
-    grid-area: 6 / 1 / 7 / 2;
+    grid-area: 4 / 2;
+    padding: 2rem 3rem 0rem 3rem;
+  }
+
+  .goals {
+    grid-area: 4 / 3;
+    padding: 2rem 3rem 0rem 3rem;
+  }
+
+  .carousel-item .container2 .goals1 {
+    grid-area: 5 / 3;
+  }
+
+  .goals1 ul{
+    grid-area: 4 / 4;
     padding-left: 3rem;
+    margin-top: 2rem;
+  }
+
+  .persona_quote {
+    grid-area: 1 / 2 / 1 / 4;
+    margin: 4rem 4rem;
   }
 
   .carousel-item .container2 ul{
-    grid-area: 7 / 1 / 8 / 2;
+    grid-area: 5 / 2;
     padding-left: 3rem;
+    margin-top: 2rem;
   }
 
   .carousel-item .container2 ul li{
@@ -3949,6 +4018,10 @@ ul:not(.browser-default) {
     background-color: #a3c2c5;
   }
 
+  .carousel .indicators {
+    margin-bottom: 13rem;
+  }
+
   .carousel .indicators .indicator-item.active{
     background-color: #558B91;
     height: 2rem;
@@ -3970,7 +4043,7 @@ ul:not(.browser-default) {
   /*  End Carousel */
 
   .q2 {
-    grid-area: 8 / 8 / 8 / 11;
+    grid-area: 7 / 1 / 7 / 13;
   }
 
   .cir4 {
