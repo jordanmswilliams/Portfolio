@@ -19,7 +19,7 @@
 }
 
 a {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #274042;
   padding: 1rem 0rem;
   text-decoration: underline;
@@ -36,6 +36,13 @@ a:hover, a:active {
     height: auto;
     align-self: start;
     padding: 2rem 5rem 0rem 0rem;
+  }
+
+  a {
+    font-size: 2rem;
+    color: #274042;
+    padding: 1rem 0rem;
+    text-decoration: underline;
   }
 }
 
