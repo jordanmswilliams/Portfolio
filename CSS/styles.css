@@ -4726,12 +4726,12 @@ ul:not(.browser-default) {
   /* Carousel */
 
   .black2{
-    grid-area: 9 / 3 / 9 / 11;
-    /*margin-top: 5rem;*/
+    grid-area: 8 / 3 / 8 / 11;
+    margin-top: 5rem;
   }
 
   .carousel{
-    min-height: 86rem;
+    min-height: 60rem;
   }
 
   .carousel .carousel-slider {
@@ -4848,7 +4848,7 @@ ul:not(.browser-default) {
   }
 
   .carousel .indicators {
-    margin-bottom: 13rem;
+    /*margin-bottom: 13rem;*/
   }
 
   .carousel .indicators .indicator-item.active{
@@ -4919,6 +4919,7 @@ ul:not(.browser-default) {
     opacity: .3;
     margin-top: 15rem;
     margin-bottom: 0rem;
+    display: inherit;
   }
 
   .infrarch #user_stories_tbl {
