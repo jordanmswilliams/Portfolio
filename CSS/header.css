@@ -27,7 +27,8 @@ a {
 
 a:hover, a:active {
   color: #F7D1AC;
-  transform: skew(-15deg);
+  transform: skew(-5deg);
+  z-index: 999;
 }
 
 @media (min-width: 700px){
