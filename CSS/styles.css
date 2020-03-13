@@ -280,8 +280,8 @@ body {
 }
 
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
+and (min-width : 768px)
+and (max-width : 1024px)  {
   .hero_about .para4{
     transform: skew(-15deg) translate(-5vw);
     grid-area: 1 / 1 / 6 / 7;
@@ -305,8 +305,8 @@ and (max-device-width : 1024px)  {
 }
 
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
+and (min-width : 768px)
+and (max-width : 1024px)  {
   .hero_about .jordan_img1 {
     grid-area: 3 / 6 / -1 / 9;
     max-width: 15rem;
@@ -367,8 +367,8 @@ and (max-device-width : 1024px)  {
 }
 
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)  {
+and (min-width : 768px)
+and (max-width : 1024px)  {
   .container .sections_landing .hero{
     min-height: 60vh;
   }
@@ -386,7 +386,7 @@ and (max-device-width : 1024px)  {
 }
 
 @media only screen
-and (min-device-width : 1400px){
+and (min-width : 1400px){
   .hero .hero_text_content{
     width: 83%;
     transform: skew(0deg) translateX(-9vw);
@@ -402,8 +402,8 @@ and (min-device-width : 1400px){
 }
 
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+and (min-width : 768px)
+and (max-width : 1024px) {
   .hero .hero_text_content {
     grid-area: 3 / 3 / 7 / 10;
   }
@@ -1085,7 +1085,7 @@ nav {
 .sections .role {
   grid-area: 2/2;
   padding: 0rem 5rem 0rem 0rem;
-  padding-top: 1 rem;
+  padding-top: 1rem;
 }
 
 .sections .duration {
@@ -1658,7 +1658,6 @@ nav {
   .carousel-item .container2 .lfield{
     grid-area: 1 / 1 / 9 / 2;
   }
-}
 
 .david_img {
   padding-left: 3rem;
@@ -5264,7 +5263,7 @@ ul:not(.browser-default) {
   }
 
   .section_parallelogram {
-    align-self: bottom;
+    align-self: end;
     height: 100%;
     transform: skew(-15deg) translateX(-9vw);
     background-color: #F9E1CA;
