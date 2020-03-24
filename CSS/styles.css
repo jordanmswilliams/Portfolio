@@ -577,7 +577,7 @@ and (max-device-width : 1024px) {
   justify-self: center;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #F1F8F9;
+  /*color: #F1F8F9;*/
   letter-spacing: .4rem;
 }
 
@@ -3410,7 +3410,8 @@ tr{
 
   .aom_landing .round1 {
     grid-area: 2 / 1 / 2 / 3;
-    max-width: 50rem;
+    max-width: 80rem;
+    justify-self: center;
   }
 
   .wireframes .aom_landing .landing_brief {
@@ -3444,7 +3445,8 @@ tr{
 
   .wireframes .aom_prog_iss .issues_brief {
     grid-area: 2 / 1 / 2 / 3;
-    max-width: 50rem;
+    max-width: 80rem;
+    justify-self: center;
   }
 
   .wireframes .aom_pledge {
@@ -3458,7 +3460,8 @@ tr{
 
   .wireframes .aom_pledge .pledge_brief {
     grid-area: 2 / 1 / 2 / 3;
-    max-width: 50rem;
+    max-width: 80rem;
+    justify-self: center;
   }
 
   .aom_bill {
