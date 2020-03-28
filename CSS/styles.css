@@ -1658,7 +1658,7 @@ nav {
 
   .black2 {
     grid-area: 14 / 1 / 14 / 3;
-    padding-top: 3rem;
+    /*padding-top: 10rem;*/
     margin-top: 0rem;
   }
 
@@ -1750,7 +1750,7 @@ nav {
     grid-template-rows: auto repeat(5,1fr);
     display: grid;
     grid-row-gap: 2rem;
-    max-height: 70rem;
+    max-height: 86rem;
     grid-column-gap: 2rem;
   }
 
@@ -2317,8 +2317,8 @@ nav {
   /* Carousel */
 
   .black2{
-    grid-area: 8 / 3 / 8 / 11;
-    margin-top: 40rem;
+    grid-area: 9 / 3 / 9 / 11;
+    /*margin-top: 40rem;*/
   }
 
   .carousel{
@@ -2420,6 +2420,8 @@ nav {
 
   .carousel .indicators .indicator-item{
     background-color: #a3c2c5;
+    height: 2rem;
+    width: 2rem;
   }
 
   .carousel .indicators {
