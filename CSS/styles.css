@@ -3116,6 +3116,8 @@ tr{
     max-height: none;
     margin-top: 16rem;
     padding: 0;
+    justify-self: center;
+    max-height: 60rem;
   }
 
   .q3 {
